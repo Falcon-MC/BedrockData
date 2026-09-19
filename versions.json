@@ -1,0 +1,37 @@
+{
+  "latest": 2193,
+  "versions": [
+    {
+      "protocol": 2193,
+      "minecraftVersion": "1.26.50",
+      "files": [
+        {
+          "name": "biome_definitions.nbt",
+          "format": "gzip, big-endian NBT",
+          "sha256": "01f813a0212c63ff3682a460df9202bda56c104994576b851c1ee98ef044d9aa"
+        },
+        {
+          "name": "block_palette.nbt",
+          "format": "gzip, big-endian NBT",
+          "sha256": "d83f382577fdecfca2e9e98ae9a591f3735e32891c476a79cb2ddca8f866db9f"
+        },
+        {
+          "name": "item_tags.json",
+          "format": "JSON",
+          "sha256": "3c223e3f504590cbf58a24c70bf3146cadc5d016baa437e34a5d282d4fb72b3d"
+        },
+        {
+          "name": "recipes.json",
+          "format": "JSON",
+          "sha256": "65459dcebd6a08614a493e0ad8ce98b3fe23320773b498ad26c224ecdeaee425"
+        },
+        {
+          "name": "voxel_shapes.json",
+          "format": "JSON",
+          "sha256": "70e75040943e466ec5692138e7e7ed8b21b7f2ebcd71700a16a790d090cb22b8"
+        }
+      ],
+      "pending": []
+    }
+  ]
+}

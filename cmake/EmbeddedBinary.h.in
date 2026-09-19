@@ -1,0 +1,11 @@
+#pragma once
+
+#include <cstddef>
+
+namespace @FALCON_BEDROCK_DATA_NAMESPACE@ {
+    inline constexpr unsigned char @FALCON_BEDROCK_DATA_SYMBOL@[] = {
+@FALCON_BEDROCK_DATA_BYTES@
+    };
+
+    inline constexpr std::size_t @FALCON_BEDROCK_DATA_SYMBOL@Size = sizeof(@FALCON_BEDROCK_DATA_SYMBOL@);
+}
