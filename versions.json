@@ -16,6 +16,11 @@
           "sha256": "d83f382577fdecfca2e9e98ae9a591f3735e32891c476a79cb2ddca8f866db9f"
         },
         {
+          "name": "creative_items.json",
+          "format": "JSON",
+          "sha256": "a6d9490817fd80bd8599ef43964e80a14e0b3cc2d6d2a3a24468aa4a5da21aa7"
+        },
+        {
           "name": "item_tags.json",
           "format": "JSON",
           "sha256": "3c223e3f504590cbf58a24c70bf3146cadc5d016baa437e34a5d282d4fb72b3d"
