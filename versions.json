@@ -26,6 +26,16 @@
           "sha256": "aadc4bb8ad880be86deb6475a174c535807e9867563d6a2b625b94f34348f2c9"
         },
         {
+          "name": "item_components.nbt",
+          "format": "gzip, big-endian NBT",
+          "sha256": "157d28c2ef2fdb52438eb1e3b1fc8584308f4438c9c2402578e23da0afbe854c"
+        },
+        {
+          "name": "item_palette.json",
+          "format": "JSON",
+          "sha256": "48180ac96e07a460237a16caeb5f13e32658c92856f3f6c8edbd7d034e7dfef7"
+        },
+        {
           "name": "item_tags.json",
           "format": "JSON",
           "sha256": "3c223e3f504590cbf58a24c70bf3146cadc5d016baa437e34a5d282d4fb72b3d"

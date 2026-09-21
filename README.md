@@ -42,7 +42,7 @@ Git checkout on Windows, and because the manifest also carries checksums and the
 
 | Protocol | Minecraft | Files | Pending |
 |----------|-----------|-------|---------|
-| 2193 | 1.26.51 | `biome_definitions.nbt`, `block_palette.nbt`, `creative_items.json`, `entity_loot_tables.json`, `item_tags.json`, `loot_tables.json`, `r16_to_current_item_map.json`, `recipes.json`, `voxel_shapes.json` | none |
+| 2193 | 1.26.51 | `biome_definitions.nbt`, `block_palette.nbt`, `creative_items.json`, `entity_loot_tables.json`, `item_components.nbt`, `item_palette.json`, `item_tags.json`, `loot_tables.json`, `r16_to_current_item_map.json`, `recipes.json`, `voxel_shapes.json` | none |
 
 ## File formats
 
@@ -50,6 +50,8 @@ Git checkout on Windows, and because the manifest also carries checksums and the
 |------|--------|
 | `biome_definitions.nbt` | gzip-compressed big-endian NBT, root compound with `biomeStringList` and per-biome definitions including `chunkGenData` |
 | `block_palette.nbt` | gzip-compressed big-endian NBT, root compound with a `blocks` list; each entry has `network_id` (int), `name_hash` (long), `name` (string), `version` (int), `states` (compound) |
+| `item_palette.json` | JSON object with an `items` array; each entry has `name` (string), `id` (network id), `version` (int), `component_based` (bool), as sent in the item registry packet, CC0 |
+| `item_components.nbt` | gzip-compressed big-endian NBT, root compound `item identifier -> { components }` for component-based items, CC0 |
 | `item_tags.json` | JSON object `tag -> [item identifiers]`, keys and lists sorted, two-space indentation, trailing newline |
 | `loot_tables.json` | JSON object `loot table path -> loot table`, paths relative to the vanilla behavior pack `loot_tables` folder (for example `chests/spawn_bonus_chest.json`), versioned behavior packs applied over the base pack in version order, tables unchanged |
 | `entity_loot_tables.json` | JSON object `entity identifier -> loot table path` from each entity's default `minecraft:loot` component, versioned behavior packs applied in version order |
@@ -118,7 +120,7 @@ The CMake module and the manifest are licensed under the
 
 The data files come from different sources:
 
-- `r16_to_current_item_map.json` is released under CC0
+- `r16_to_current_item_map.json`, `item_palette.json` and `item_components.nbt` are released under CC0
 - every other file is extracted from the official dedicated server and remains the property of Mojang;
   it is redistributed only so that Falcon can interoperate with the game
 
