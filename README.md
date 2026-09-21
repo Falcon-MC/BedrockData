@@ -42,7 +42,7 @@ Git checkout on Windows, and because the manifest also carries checksums and the
 
 | Protocol | Minecraft | Files | Pending |
 |----------|-----------|-------|---------|
-| 2193 | 1.26.50 | `biome_definitions.nbt`, `block_palette.nbt`, `item_tags.json`, `recipes.json`, `voxel_shapes.json` | none |
+| 2193 | 1.26.50 | `biome_definitions.nbt`, `block_palette.nbt`, `creative_items.json`, `item_tags.json`, `loot_tables.json`, `r16_to_current_item_map.json`, `recipes.json`, `voxel_shapes.json` | none |
 
 ## File formats
 
@@ -51,6 +51,8 @@ Git checkout on Windows, and because the manifest also carries checksums and the
 | `biome_definitions.nbt` | gzip-compressed big-endian NBT, root compound with `biomeStringList` and per-biome definitions including `chunkGenData` |
 | `block_palette.nbt` | gzip-compressed big-endian NBT, root compound with a `blocks` list; each entry has `network_id` (int), `name_hash` (long), `name` (string), `version` (int), `states` (compound) |
 | `item_tags.json` | JSON object `tag -> [item identifiers]`, keys and lists sorted, two-space indentation, trailing newline |
+| `loot_tables.json` | JSON object `loot table path -> loot table`, paths relative to the vanilla behavior pack `loot_tables` folder (for example `chests/spawn_bonus_chest.json`), tables unchanged |
+| `r16_to_current_item_map.json` | JSON object with `simple` (`old identifier -> identifier`) and `complex` (`old identifier -> { meta -> identifier }`) for pre 1.16 item names and data values, CC0 |
 | `recipes.json` | JSON object with `version` and a `recipes` array as sent in the crafting data packet |
 | `voxel_shapes.json` | JSON array of `{ "identifier": string, "boxes": [[[minX, minY, minZ], [maxX, maxY, maxZ]], ...] }` in 1/16 block units |
 

@@ -26,6 +26,16 @@
           "sha256": "3c223e3f504590cbf58a24c70bf3146cadc5d016baa437e34a5d282d4fb72b3d"
         },
         {
+          "name": "loot_tables.json",
+          "format": "JSON, keyed by loot table path",
+          "sha256": "75a3b73bce17727cc1f50a266567c8a83694c2ddee4cec9cb893ae7f990464a6"
+        },
+        {
+          "name": "r16_to_current_item_map.json",
+          "format": "JSON with simple renames and complex name + meta mappings",
+          "sha256": "b5d7b41435571615d4036e666474eb67605a7eb1d8e94b648fb10faaa53aebe2"
+        },
+        {
           "name": "recipes.json",
           "format": "JSON",
           "sha256": "65459dcebd6a08614a493e0ad8ce98b3fe23320773b498ad26c224ecdeaee425"
