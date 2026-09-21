@@ -21,6 +21,11 @@
           "sha256": "a6d9490817fd80bd8599ef43964e80a14e0b3cc2d6d2a3a24468aa4a5da21aa7"
         },
         {
+          "name": "entity_loot_tables.json",
+          "format": "JSON, entity identifier to loot table path",
+          "sha256": "aadc4bb8ad880be86deb6475a174c535807e9867563d6a2b625b94f34348f2c9"
+        },
+        {
           "name": "item_tags.json",
           "format": "JSON",
           "sha256": "3c223e3f504590cbf58a24c70bf3146cadc5d016baa437e34a5d282d4fb72b3d"
@@ -28,7 +33,7 @@
         {
           "name": "loot_tables.json",
           "format": "JSON, keyed by loot table path",
-          "sha256": "75a3b73bce17727cc1f50a266567c8a83694c2ddee4cec9cb893ae7f990464a6"
+          "sha256": "468ec6fd9fa015d53cd9db9476f3018e2107d6f049f8fd836c3a545b751546fc"
         },
         {
           "name": "r16_to_current_item_map.json",
