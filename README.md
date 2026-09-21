@@ -21,7 +21,7 @@ cmake/                   CMake module that locates, verifies and embeds the file
   "versions": [
     {
       "protocol": 2193,
-      "minecraftVersion": "1.26.50",
+      "minecraftVersion": "1.26.51",
       "files": [
         { "name": "biome_definitions.nbt", "format": "gzip, big-endian NBT", "sha256": "..." }
       ],
@@ -42,7 +42,7 @@ Git checkout on Windows, and because the manifest also carries checksums and the
 
 | Protocol | Minecraft | Files | Pending |
 |----------|-----------|-------|---------|
-| 2193 | 1.26.50 | `biome_definitions.nbt`, `block_palette.nbt`, `creative_items.json`, `entity_loot_tables.json`, `item_tags.json`, `loot_tables.json`, `r16_to_current_item_map.json`, `recipes.json`, `voxel_shapes.json` | none |
+| 2193 | 1.26.51 | `biome_definitions.nbt`, `block_palette.nbt`, `creative_items.json`, `entity_loot_tables.json`, `item_tags.json`, `loot_tables.json`, `r16_to_current_item_map.json`, `recipes.json`, `voxel_shapes.json` | none |
 
 ## File formats
 
@@ -109,3 +109,17 @@ target_include_directories(MyTarget PRIVATE "${GENERATED_DIR}")
 
 Each file used through these functions is added to `CMAKE_CONFIGURE_DEPENDS`, so editing a data file
 re-runs the configure step.
+
+## Licensing information
+
+The CMake module and the manifest are licensed under the
+[GNU Lesser General Public License v3.0](LICENSE), which supplements the
+[GNU General Public License v3.0](COPYING).
+
+The data files come from different sources:
+
+- `r16_to_current_item_map.json` is released under CC0
+- every other file is extracted from the official dedicated server and remains the property of Mojang;
+  it is redistributed only so that Falcon can interoperate with the game
+
+Falcon is not affiliated with Mojang. All brands and trademarks belong to their respective owners.
