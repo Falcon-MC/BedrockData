@@ -62,7 +62,7 @@ Git checkout on Windows, and because the manifest also carries checksums and the
 
 ## Adding a protocol version
 
-1. Create `data/<protocol>/` and put the new files in it. Prefer files produced by Falcon-DataGen.
+1. Create `data/<protocol>/` and put the new files in it.
 2. Compute the SHA-256 of every file (`sha256sum`, or `Get-FileHash -Algorithm SHA256` on Windows,
    lower-case).
 3. Add an entry to `versions` in `versions.json` with `protocol`, `minecraftVersion`, `files` and
