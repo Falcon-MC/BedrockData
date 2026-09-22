@@ -11,6 +11,11 @@
           "sha256": "01f813a0212c63ff3682a460df9202bda56c104994576b851c1ee98ef044d9aa"
         },
         {
+          "name": "block_definitions.nbt",
+          "format": "gzip, big-endian NBT",
+          "sha256": "53e4bc50d13eb99c75d1022c371965232d243c091f42223981ea4175f50b9dc3"
+        },
+        {
           "name": "block_palette.nbt",
           "format": "gzip, big-endian NBT",
           "sha256": "d83f382577fdecfca2e9e98ae9a591f3735e32891c476a79cb2ddca8f866db9f"
