@@ -67,6 +67,73 @@
         }
       ],
       "pending": []
+    },
+    {
+      "protocol": 2216,
+      "minecraftVersion": "1.26.60",
+      "files": [
+        {
+          "name": "biome_definitions.nbt",
+          "format": "gzip, big-endian NBT",
+          "sha256": "4afec0d7d8239108d415efddfdc542e53ca9ae0cbf9a941b86a89c5bc478bdf2"
+        },
+        {
+          "name": "block_definitions.nbt",
+          "format": "gzip, big-endian NBT",
+          "sha256": "53e4bc50d13eb99c75d1022c371965232d243c091f42223981ea4175f50b9dc3"
+        },
+        {
+          "name": "block_palette.nbt",
+          "format": "gzip, big-endian NBT",
+          "sha256": "1d9b96e4580b2cbf938eeac11c98f654c3f3dea9bef2b9ddc367067e7380348f"
+        },
+        {
+          "name": "creative_items.json",
+          "format": "JSON",
+          "sha256": "3e93884cba337d67ed70679a6bcc30651ebade2637de321db32055fb81467eba"
+        },
+        {
+          "name": "entity_loot_tables.json",
+          "format": "JSON, entity identifier to loot table path",
+          "sha256": "61f4a94aacf1e30c6a823441901e76057904f6671f8301d513d98e5b3a705c39"
+        },
+        {
+          "name": "item_components.nbt",
+          "format": "gzip, big-endian NBT",
+          "sha256": "39609ddd8cd64ad5de601860a4709d8d35735c52d35b958e4647fd10cc853fd5"
+        },
+        {
+          "name": "item_palette.json",
+          "format": "JSON",
+          "sha256": "468d7794d67387605e571e7e6d63678865482561f891ae35f79797a0d4155492"
+        },
+        {
+          "name": "item_tags.json",
+          "format": "JSON",
+          "sha256": "13b7cba4777386d295cfac63bc8720055253db9853c680454badcfcdb69cba13"
+        },
+        {
+          "name": "loot_tables.json",
+          "format": "JSON, keyed by loot table path",
+          "sha256": "8adf1b8dfbdb18571dba0dc26a88943a6272538acf0bb80fa0c22cdc02d71cd1"
+        },
+        {
+          "name": "r16_to_current_item_map.json",
+          "format": "JSON with simple renames and complex name + meta mappings",
+          "sha256": "b5d7b41435571615d4036e666474eb67605a7eb1d8e94b648fb10faaa53aebe2"
+        },
+        {
+          "name": "recipes.json",
+          "format": "JSON",
+          "sha256": "790144d12fed3304a81d01bb44c688928a59f379d0614ac4b12c15634bd2df68"
+        },
+        {
+          "name": "voxel_shapes.json",
+          "format": "JSON",
+          "sha256": "70e75040943e466ec5692138e7e7ed8b21b7f2ebcd71700a16a790d090cb22b8"
+        }
+      ],
+      "pending": []
     }
   ]
 }
