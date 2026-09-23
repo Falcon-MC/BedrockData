@@ -125,7 +125,7 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "790144d12fed3304a81d01bb44c688928a59f379d0614ac4b12c15634bd2df68"
+          "sha256": "bb661c4ca8e9b0551331d82f9a4c4ea9763a5b3b58a262fef7ff705014c2339f"
         },
         {
           "name": "voxel_shapes.json",
