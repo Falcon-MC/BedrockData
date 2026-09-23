@@ -8,7 +8,7 @@
         {
           "name": "biome_definitions.nbt",
           "format": "gzip, big-endian NBT",
-          "sha256": "01f813a0212c63ff3682a460df9202bda56c104994576b851c1ee98ef044d9aa"
+          "sha256": "4afec0d7d8239108d415efddfdc542e53ca9ae0cbf9a941b86a89c5bc478bdf2"
         },
         {
           "name": "block_definitions.nbt",
@@ -18,7 +18,7 @@
         {
           "name": "block_palette.nbt",
           "format": "gzip, big-endian NBT",
-          "sha256": "d83f382577fdecfca2e9e98ae9a591f3735e32891c476a79cb2ddca8f866db9f"
+          "sha256": "6f7ca4b80c0ef8da0746e414788c6398d8c68f9dbb207f9bd94c746312ade562"
         },
         {
           "name": "creative_items.json",
@@ -28,7 +28,7 @@
         {
           "name": "entity_loot_tables.json",
           "format": "JSON, entity identifier to loot table path",
-          "sha256": "aadc4bb8ad880be86deb6475a174c535807e9867563d6a2b625b94f34348f2c9"
+          "sha256": "61f4a94aacf1e30c6a823441901e76057904f6671f8301d513d98e5b3a705c39"
         },
         {
           "name": "item_components.nbt",
@@ -58,7 +58,7 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "65459dcebd6a08614a493e0ad8ce98b3fe23320773b498ad26c224ecdeaee425"
+          "sha256": "3750e5d21e7320cf7f9340513fb32825a2e7a84bfbefce22dbda2580caed6def"
         },
         {
           "name": "voxel_shapes.json",
