@@ -26,6 +26,11 @@
           "sha256": "a6d9490817fd80bd8599ef43964e80a14e0b3cc2d6d2a3a24468aa4a5da21aa7"
         },
         {
+          "name": "entity_despawn.json",
+          "format": "JSON",
+          "sha256": "30e7111ebcede3dec03c77179581776a565574806854d6b3e2f027ae4bc7a5b6"
+        },
+        {
           "name": "entity_loot_tables.json",
           "format": "JSON, entity identifier to loot table path",
           "sha256": "61f4a94aacf1e30c6a823441901e76057904f6671f8301d513d98e5b3a705c39"
@@ -58,7 +63,12 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "c5126adbd4bb239b9b415516c828f49f6a0bc55895bfb1d3652f6a416764cb01"
+          "sha256": "ccb0f2ef41b94a015f10b5e287c94dae84bd9d73d4634c84f93b0d2c05b82244"
+        },
+        {
+          "name": "spawn_rules.json",
+          "format": "JSON",
+          "sha256": "32632504f4ce65c990d754ac61cbb86b1ed03a362a18c6c6ac5a6bbc8c810b5c"
         },
         {
           "name": "voxel_shapes.json",
