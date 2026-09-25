@@ -21,7 +21,7 @@ cmake/                   CMake module that locates, verifies and embeds the file
   "versions": [
     {
       "protocol": 2193,
-      "minecraftVersion": "1.26.51",
+      "minecraftVersion": "1.26.52",
       "files": [
         { "name": "biome_definitions.nbt", "format": "gzip, big-endian NBT", "sha256": "..." }
       ],
@@ -42,7 +42,7 @@ Git checkout on Windows, and because the manifest also carries checksums and the
 
 | Protocol | Minecraft | Files | Pending |
 |----------|-----------|-------|---------|
-| 2193 | 1.26.51 | `biome_definitions.nbt`, `block_definitions.nbt`, `block_palette.nbt`, `creative_items.json`, `entity_loot_tables.json`, `item_components.nbt`, `item_palette.json`, `item_tags.json`, `loot_tables.json`, `r16_to_current_item_map.json`, `recipes.json`, `voxel_shapes.json` | none |
+| 2193 | 1.26.52 | `biome_definitions.nbt`, `block_definitions.nbt`, `block_palette.nbt`, `creative_items.json`, `entity_loot_tables.json`, `item_components.nbt`, `item_palette.json`, `item_tags.json`, `loot_tables.json`, `r16_to_current_item_map.json`, `recipes.json`, `voxel_shapes.json` | none |
 
 ## File formats
 
