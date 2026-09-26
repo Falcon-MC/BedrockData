@@ -1,5 +1,12 @@
 {
   "minecraft:agent": {
+    "description": {
+      "identifier": "minecraft:agent",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:behavior.look_at_entity": {
         "angle_of_view_vertical": 135,
@@ -52,6 +59,12 @@
     "events": {}
   },
   "minecraft:allay": {
+    "description": {
+      "identifier": "minecraft:allay",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "creature"
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -326,6 +339,13 @@
     }
   },
   "minecraft:area_effect_cloud": {
+    "description": {
+      "identifier": "minecraft:area_effect_cloud",
+      "is_experimental": false,
+      "is_summonable": false,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:conditional_bandwidth_optimization": {},
       "minecraft:physics": {
@@ -336,6 +356,26 @@
     "events": {}
   },
   "minecraft:armadillo": {
+    "description": {
+      "identifier": "minecraft:armadillo",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "minecraft:armadillo_state": {
+          "type": "enum",
+          "values": [
+            "unrolled",
+            "rolled_up",
+            "rolled_up_peeking",
+            "rolled_up_relaxing",
+            "rolled_up_unrolling"
+          ],
+          "default": "unrolled",
+          "client_sync": true
+        }
+      }
+    },
     "components": {
       "minecraft:offspring": {
         "offspring_pairs": {
@@ -1136,6 +1176,13 @@
     }
   },
   "minecraft:armor_stand": {
+    "description": {
+      "identifier": "minecraft:armor_stand",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:collision_box": {
         "height": 1.975,
@@ -1183,6 +1230,11 @@
     "events": {}
   },
   "minecraft:arrow": {
+    "description": {
+      "identifier": "minecraft:arrow",
+      "is_summonable": true,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -1473,6 +1525,12 @@
     }
   },
   "minecraft:axolotl": {
+    "description": {
+      "identifier": "minecraft:axolotl",
+      "spawn_category": "axolotls",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -2023,6 +2081,13 @@
     }
   },
   "minecraft:bat": {
+    "description": {
+      "identifier": "minecraft:bat",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "ambient"
+    },
     "components": {
       "minecraft:behavior.float": {
         "priority": 0
@@ -2102,6 +2167,19 @@
     "events": {}
   },
   "minecraft:bee": {
+    "description": {
+      "identifier": "minecraft:bee",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "minecraft:has_nectar": {
+          "type": "bool",
+          "client_sync": true,
+          "default": "query.had_component_group('has_nectar')"
+        }
+      }
+    },
     "components": {
       "minecraft:offspring": {
         "offspring_pairs": {
@@ -3260,6 +3338,12 @@
     }
   },
   "minecraft:blaze": {
+    "description": {
+      "identifier": "minecraft:blaze",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.float": {
         "priority": 0
@@ -3453,6 +3537,11 @@
     }
   },
   "minecraft:boat": {
+    "description": {
+      "identifier": "minecraft:boat",
+      "is_summonable": true,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:balloonable": {},
       "minecraft:buoyant": {
@@ -3866,6 +3955,12 @@
     }
   },
   "minecraft:bogged": {
+    "description": {
+      "identifier": "minecraft:bogged",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.avoid_mob_type": {
         "entity_types": [
@@ -4572,6 +4667,19 @@
     }
   },
   "minecraft:breeze": {
+    "description": {
+      "identifier": "minecraft:breeze",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "properties": {
+        "minecraft:is_playing_idle_ground_sound": {
+          "client_sync": false,
+          "default": false,
+          "type": "bool"
+        }
+      },
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -4986,6 +5094,11 @@
     }
   },
   "minecraft:breeze_wind_charge_projectile": {
+    "description": {
+      "identifier": "minecraft:breeze_wind_charge_projectile",
+      "is_summonable": false,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -5052,6 +5165,12 @@
     "events": {}
   },
   "minecraft:camel": {
+    "description": {
+      "identifier": "minecraft:camel",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:offspring": {
         "offspring_pairs": {
@@ -5602,6 +5721,19 @@
     }
   },
   "minecraft:camel_husk": {
+    "description": {
+      "identifier": "minecraft:camel_husk",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "properties": {
+        "minecraft:has_rider_mounted": {
+          "client_sync": false,
+          "default": false,
+          "type": "bool"
+        }
+      },
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:balloonable": {},
       "minecraft:behavior.float": {
@@ -6100,6 +6232,23 @@
     }
   },
   "minecraft:cat": {
+    "description": {
+      "identifier": "minecraft:cat",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "minecraft:sound_variant": {
+          "type": "enum",
+          "values": [
+            "default",
+            "royal"
+          ],
+          "default": "default",
+          "client_sync": true
+        }
+      }
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -6906,6 +7055,12 @@
     }
   },
   "minecraft:cave_spider": {
+    "description": {
+      "identifier": "minecraft:cave_spider",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.avoid_mob_type": {
         "entity_types": [
@@ -7597,6 +7752,11 @@
     }
   },
   "minecraft:chest_boat": {
+    "description": {
+      "identifier": "minecraft:chest_boat",
+      "is_summonable": true,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:balloonable": {},
       "minecraft:buoyant": {
@@ -7948,6 +8108,13 @@
     }
   },
   "minecraft:chest_minecart": {
+    "description": {
+      "identifier": "minecraft:chest_minecart",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:collision_box": {
         "height": 0.7,
@@ -8005,6 +8172,33 @@
     "events": {}
   },
   "minecraft:chicken": {
+    "description": {
+      "identifier": "minecraft:chicken",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "minecraft:climate_variant": {
+          "type": "enum",
+          "values": [
+            "temperate",
+            "warm",
+            "cold"
+          ],
+          "default": "temperate",
+          "client_sync": true
+        },
+        "minecraft:sound_variant": {
+          "type": "enum",
+          "values": [
+            "default",
+            "picky"
+          ],
+          "default": "default",
+          "client_sync": true
+        }
+      }
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -8373,6 +8567,13 @@
     }
   },
   "minecraft:cod": {
+    "description": {
+      "identifier": "minecraft:cod",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "water_ambient"
+    },
     "components": {
       "minecraft:behavior.avoid_mob_type": {
         "entity_types": [
@@ -8522,6 +8723,13 @@
     "events": {}
   },
   "minecraft:command_block_minecart": {
+    "description": {
+      "identifier": "minecraft:command_block_minecart",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:collision_box": {
         "height": 0.7,
@@ -8631,6 +8839,49 @@
     }
   },
   "minecraft:copper_golem": {
+    "description": {
+      "identifier": "minecraft:copper_golem",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "properties": {
+        "minecraft:oxidation_level": {
+          "client_sync": true,
+          "default": "unoxidized",
+          "type": "enum",
+          "values": [
+            "unoxidized",
+            "exposed",
+            "weathered",
+            "oxidized"
+          ]
+        },
+        "minecraft:is_waxed": {
+          "default": false,
+          "type": "bool"
+        },
+        "minecraft:chest_interaction": {
+          "client_sync": true,
+          "default": "none",
+          "type": "enum",
+          "values": [
+            "none",
+            "take",
+            "take_fail",
+            "put",
+            "put_fail"
+          ]
+        },
+        "minecraft:has_flower": {
+          "client_sync": true,
+          "default": false,
+          "type": "bool"
+        },
+        "minecraft:is_becoming_statue": {
+          "default": false,
+          "type": "bool"
+        }
+      }
+    },
     "components": {
       "minecraft:annotation.open_door": {},
       "minecraft:attack": {
@@ -9394,6 +9645,33 @@
     }
   },
   "minecraft:cow": {
+    "description": {
+      "identifier": "minecraft:cow",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "minecraft:climate_variant": {
+          "type": "enum",
+          "values": [
+            "temperate",
+            "warm",
+            "cold"
+          ],
+          "default": "temperate",
+          "client_sync": true
+        },
+        "minecraft:sound_variant": {
+          "type": "enum",
+          "values": [
+            "default",
+            "moody"
+          ],
+          "default": "default",
+          "client_sync": true
+        }
+      }
+    },
     "components": {
       "minecraft:offspring": {
         "offspring_pairs": {
@@ -9700,6 +9978,35 @@
     }
   },
   "minecraft:creaking": {
+    "description": {
+      "identifier": "minecraft:creaking",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "properties": {
+        "minecraft:creaking_swaying_ticks": {
+          "client_sync": true,
+          "default": 0,
+          "range": [
+            0,
+            6
+          ],
+          "type": "int"
+        },
+        "minecraft:creaking_state": {
+          "client_sync": true,
+          "default": "neutral",
+          "type": "enum",
+          "values": [
+            "neutral",
+            "hostile_observed",
+            "hostile_unobserved",
+            "twitching",
+            "crumbling"
+          ]
+        }
+      },
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 3
@@ -10351,6 +10658,13 @@
     }
   },
   "minecraft:creeper": {
+    "description": {
+      "identifier": "minecraft:creeper",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 3
@@ -10681,6 +10995,12 @@
     }
   },
   "minecraft:cushion": {
+    "description": {
+      "identifier": "minecraft:cushion",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": true
+    },
     "components": {
       "minecraft:nameable": {
         "allow_name_tag_renaming": false
@@ -10729,6 +11049,12 @@
     "events": {}
   },
   "minecraft:dolphin": {
+    "description": {
+      "identifier": "minecraft:dolphin",
+      "spawn_category": "water_creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -11214,6 +11540,12 @@
     }
   },
   "minecraft:donkey": {
+    "description": {
+      "identifier": "minecraft:donkey",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:ambient_sound_interval": {},
@@ -11968,6 +12300,11 @@
     }
   },
   "minecraft:dragon_fireball": {
+    "description": {
+      "identifier": "minecraft:dragon_fireball",
+      "is_summonable": false,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -12022,6 +12359,12 @@
     "events": {}
   },
   "minecraft:drowned": {
+    "description": {
+      "identifier": "minecraft:drowned",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -12905,6 +13248,23 @@
     }
   },
   "minecraft:egg": {
+    "description": {
+      "identifier": "minecraft:egg",
+      "properties": {
+        "minecraft:climate_variant": {
+          "client_sync": true,
+          "default": "temperate",
+          "type": "enum",
+          "values": [
+            "temperate",
+            "warm",
+            "cold"
+          ]
+        }
+      },
+      "is_summonable": true,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -13019,6 +13379,13 @@
     }
   },
   "minecraft:elder_guardian": {
+    "description": {
+      "identifier": "minecraft:elder_guardian",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -13169,6 +13536,13 @@
     "events": {}
   },
   "minecraft:ender_crystal": {
+    "description": {
+      "identifier": "minecraft:ender_crystal",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:collision_box": {
         "height": 2,
@@ -13213,6 +13587,12 @@
     }
   },
   "minecraft:ender_dragon": {
+    "description": {
+      "identifier": "minecraft:ender_dragon",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 3
@@ -13360,6 +13740,12 @@
     }
   },
   "minecraft:ender_pearl": {
+    "description": {
+      "identifier": "minecraft:ender_pearl",
+      "is_summonable": false,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -13435,6 +13821,12 @@
     }
   },
   "minecraft:enderman": {
+    "description": {
+      "identifier": "minecraft:enderman",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:renders_when_invisible": {},
@@ -13774,6 +14166,13 @@
     }
   },
   "minecraft:endermite": {
+    "description": {
+      "identifier": "minecraft:endermite",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 2
@@ -13881,6 +14280,12 @@
     "events": {}
   },
   "minecraft:evocation_illager": {
+    "description": {
+      "identifier": "minecraft:evocation_illager",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.avoid_mob_type": {
         "entity_types": [
@@ -14315,6 +14720,13 @@
     }
   },
   "minecraft:eye_of_ender_signal": {
+    "description": {
+      "identifier": "minecraft:eye_of_ender_signal",
+      "is_experimental": false,
+      "is_summonable": false,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:collision_box": {
         "height": 0.25,
@@ -14337,6 +14749,11 @@
     "events": {}
   },
   "minecraft:fireball": {
+    "description": {
+      "identifier": "minecraft:fireball",
+      "is_summonable": false,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -14417,6 +14834,12 @@
     }
   },
   "minecraft:fireworks_rocket": {
+    "description": {
+      "identifier": "minecraft:fireworks_rocket",
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -14443,6 +14866,11 @@
     "events": {}
   },
   "minecraft:fishing_hook": {
+    "description": {
+      "identifier": "minecraft:fishing_hook",
+      "is_summonable": false,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -14501,6 +14929,12 @@
     }
   },
   "minecraft:fox": {
+    "description": {
+      "identifier": "minecraft:fox",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:offspring": {
         "offspring_pairs": {
@@ -15451,6 +15885,12 @@
     }
   },
   "minecraft:frog": {
+    "description": {
+      "identifier": "minecraft:frog",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "creature"
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -16033,6 +16473,12 @@
     }
   },
   "minecraft:ghast": {
+    "description": {
+      "identifier": "minecraft:ghast",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.float": {
         "priority": 0
@@ -16140,6 +16586,12 @@
     "events": {}
   },
   "minecraft:glow_squid": {
+    "description": {
+      "identifier": "minecraft:glow_squid",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "underground_water_creature"
+    },
     "components": {
       "minecraft:balloonable": {
         "mass": 0.5
@@ -16295,6 +16747,12 @@
     }
   },
   "minecraft:goat": {
+    "description": {
+      "identifier": "minecraft:goat",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:behavior.jump_to_block": {
@@ -16738,6 +17196,13 @@
     }
   },
   "minecraft:guardian": {
+    "description": {
+      "identifier": "minecraft:guardian",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -17007,6 +17472,19 @@
     }
   },
   "minecraft:happy_ghast": {
+    "description": {
+      "identifier": "minecraft:happy_ghast",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "minecraft:can_move": {
+          "type": "bool",
+          "default": true,
+          "client_sync": true
+        }
+      }
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -17929,6 +18407,12 @@
     }
   },
   "minecraft:hoglin": {
+    "description": {
+      "identifier": "minecraft:hoglin",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:nameable": {},
@@ -18471,6 +18955,13 @@
     }
   },
   "minecraft:hopper_minecart": {
+    "description": {
+      "identifier": "minecraft:hopper_minecart",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:collision_box": {
         "height": 0.7,
@@ -18576,6 +19067,12 @@
     }
   },
   "minecraft:horse": {
+    "description": {
+      "identifier": "minecraft:horse",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:ambient_sound_interval": {
@@ -19483,6 +19980,19 @@
     }
   },
   "minecraft:husk": {
+    "description": {
+      "identifier": "minecraft:husk",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "properties": {
+        "minecraft:is_riding_camel_husk": {
+          "client_sync": false,
+          "default": false,
+          "type": "bool"
+        }
+      },
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 3,
@@ -20416,6 +20926,11 @@
     }
   },
   "minecraft:iron_golem": {
+    "description": {
+      "identifier": "minecraft:iron_golem",
+      "is_summonable": true,
+      "is_spawnable": true
+    },
     "components": {
       "minecraft:attack": {
         "damage": {
@@ -20921,6 +21436,13 @@
     }
   },
   "minecraft:lightning_bolt": {
+    "description": {
+      "identifier": "minecraft:lightning_bolt",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:conditional_bandwidth_optimization": {
         "default_values": {
@@ -20939,6 +21461,12 @@
     "events": {}
   },
   "minecraft:lingering_potion": {
+    "description": {
+      "identifier": "minecraft:lingering_potion",
+      "is_summonable": false,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -20982,6 +21510,12 @@
     "events": {}
   },
   "minecraft:llama": {
+    "description": {
+      "identifier": "minecraft:llama",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:offspring": {
         "parent_centric_attribute_blending": [
@@ -21866,6 +22400,12 @@
     }
   },
   "minecraft:llama_spit": {
+    "description": {
+      "identifier": "minecraft:llama_spit",
+      "is_summonable": false,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -21918,6 +22458,13 @@
     "events": {}
   },
   "minecraft:magma_cube": {
+    "description": {
+      "identifier": "minecraft:magma_cube",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.nearest_attackable_target": {
         "must_see": true,
@@ -22217,6 +22764,12 @@
     }
   },
   "minecraft:minecart": {
+    "description": {
+      "identifier": "minecraft:minecart",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:collision_box": {
         "height": 0.7,
@@ -22306,6 +22859,12 @@
     "events": {}
   },
   "minecraft:mooshroom": {
+    "description": {
+      "identifier": "minecraft:mooshroom",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:offspring": {
         "offspring_pairs": {
@@ -23541,6 +24100,12 @@
     }
   },
   "minecraft:mule": {
+    "description": {
+      "identifier": "minecraft:mule",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:ambient_sound_interval": {},
@@ -24204,6 +24769,12 @@
     }
   },
   "minecraft:nautilus": {
+    "description": {
+      "identifier": "minecraft:nautilus",
+      "spawn_category": "water_creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -25217,6 +25788,13 @@
     }
   },
   "minecraft:npc": {
+    "description": {
+      "identifier": "minecraft:npc",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "creature"
+    },
     "components": {
       "minecraft:behavior.look_at_player": {
         "look_time": {
@@ -25469,6 +26047,12 @@
     "events": {}
   },
   "minecraft:ocelot": {
+    "description": {
+      "identifier": "minecraft:ocelot",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:health": {
@@ -25893,11 +26477,22 @@
     }
   },
   "minecraft:ominous_item_spawner": {
+    "description": {
+      "identifier": "minecraft:ominous_item_spawner",
+      "is_summonable": false,
+      "is_spawnable": false
+    },
     "components": {},
     "component_groups": {},
     "events": {}
   },
   "minecraft:panda": {
+    "description": {
+      "identifier": "minecraft:panda",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -26630,6 +27225,12 @@
     }
   },
   "minecraft:parched": {
+    "description": {
+      "identifier": "minecraft:parched",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.avoid_mob_type": {
         "entity_types": [
@@ -27273,6 +27874,12 @@
     }
   },
   "minecraft:parrot": {
+    "description": {
+      "identifier": "minecraft:parrot",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "creature"
+    },
     "components": {
       "minecraft:balloonable": {},
       "minecraft:behavior.float": {
@@ -27644,6 +28251,12 @@
     }
   },
   "minecraft:phantom": {
+    "description": {
+      "identifier": "minecraft:phantom",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 6
@@ -27784,6 +28397,34 @@
     "events": {}
   },
   "minecraft:pig": {
+    "description": {
+      "identifier": "minecraft:pig",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "minecraft:climate_variant": {
+          "type": "enum",
+          "values": [
+            "temperate",
+            "warm",
+            "cold"
+          ],
+          "default": "temperate",
+          "client_sync": true
+        },
+        "minecraft:sound_variant": {
+          "type": "enum",
+          "values": [
+            "default",
+            "big",
+            "mini"
+          ],
+          "default": "default",
+          "client_sync": true
+        }
+      }
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -28248,6 +28889,12 @@
     }
   },
   "minecraft:piglin": {
+    "description": {
+      "identifier": "minecraft:piglin",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:equip_item": {
@@ -29515,6 +30162,13 @@
     }
   },
   "minecraft:piglin_brute": {
+    "description": {
+      "identifier": "minecraft:piglin_brute",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:annotation.open_door": {},
       "minecraft:behavior.hurt_by_target": {
@@ -29876,6 +30530,12 @@
     }
   },
   "minecraft:pillager": {
+    "description": {
+      "identifier": "minecraft:pillager",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.avoid_mob_type": {
         "entity_types": [
@@ -30406,6 +31066,12 @@
     }
   },
   "minecraft:player": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_summonable": false,
+      "is_spawnable": false,
+      "spawn_category": "creature"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 1
@@ -30797,6 +31463,12 @@
     }
   },
   "minecraft:polar_bear": {
+    "description": {
+      "identifier": "minecraft:polar_bear",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -31120,6 +31792,12 @@
     }
   },
   "minecraft:pufferfish": {
+    "description": {
+      "identifier": "minecraft:pufferfish",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "water_ambient"
+    },
     "components": {
       "minecraft:behavior.avoid_mob_type": {
         "entity_types": [
@@ -31678,6 +32356,12 @@
     }
   },
   "minecraft:rabbit": {
+    "description": {
+      "identifier": "minecraft:rabbit",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:can_stand_on_powder_snow": {},
@@ -32134,6 +32818,12 @@
     }
   },
   "minecraft:ravager": {
+    "description": {
+      "identifier": "minecraft:ravager",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:experience_reward": {
@@ -32663,6 +33353,13 @@
     }
   },
   "minecraft:salmon": {
+    "description": {
+      "identifier": "minecraft:salmon",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "water_ambient"
+    },
     "components": {
       "minecraft:behavior.avoid_mob_type": {
         "entity_types": [
@@ -32863,6 +33560,12 @@
     }
   },
   "minecraft:sheep": {
+    "description": {
+      "identifier": "minecraft:sheep",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:offspring": {
         "offspring_pairs": {
@@ -33498,6 +34201,12 @@
     }
   },
   "minecraft:shulker": {
+    "description": {
+      "identifier": "minecraft:shulker",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.hurt_by_target": {
         "entity_types": {
@@ -34289,6 +34998,12 @@
     }
   },
   "minecraft:shulker_bullet": {
+    "description": {
+      "identifier": "minecraft:shulker_bullet",
+      "is_summonable": false,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -34359,6 +35074,12 @@
     "events": {}
   },
   "minecraft:silverfish": {
+    "description": {
+      "identifier": "minecraft:silverfish",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 1
@@ -34535,6 +35256,12 @@
     }
   },
   "minecraft:skeleton": {
+    "description": {
+      "identifier": "minecraft:skeleton",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.avoid_mob_type": {
         "entity_types": [
@@ -35343,6 +36070,12 @@
     }
   },
   "minecraft:skeleton_horse": {
+    "description": {
+      "identifier": "minecraft:skeleton_horse",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:ambient_sound_interval": {},
@@ -35614,6 +36347,12 @@
     }
   },
   "minecraft:slime": {
+    "description": {
+      "identifier": "minecraft:slime",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.nearest_attackable_target": {
         "must_see": true,
@@ -35917,6 +36656,11 @@
     }
   },
   "minecraft:small_fireball": {
+    "description": {
+      "identifier": "minecraft:small_fireball",
+      "is_summonable": false,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -35974,6 +36718,12 @@
     "events": {}
   },
   "minecraft:sniffer": {
+    "description": {
+      "identifier": "minecraft:sniffer",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:offspring": {
         "offspring_pairs": {
@@ -36393,6 +37143,11 @@
     }
   },
   "minecraft:snow_golem": {
+    "description": {
+      "identifier": "minecraft:snow_golem",
+      "is_summonable": true,
+      "is_spawnable": true
+    },
     "components": {
       "minecraft:attack": {
         "damage": 2
@@ -36597,6 +37352,12 @@
     }
   },
   "minecraft:snowball": {
+    "description": {
+      "identifier": "minecraft:snowball",
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -36653,6 +37414,12 @@
     "events": {}
   },
   "minecraft:spider": {
+    "description": {
+      "identifier": "minecraft:spider",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 2
@@ -37168,6 +37935,12 @@
     }
   },
   "minecraft:splash_potion": {
+    "description": {
+      "identifier": "minecraft:splash_potion",
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -37206,6 +37979,12 @@
     "events": {}
   },
   "minecraft:squid": {
+    "description": {
+      "identifier": "minecraft:squid",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "water_creature"
+    },
     "components": {
       "minecraft:balloonable": {
         "mass": 0.5
@@ -37362,6 +38141,12 @@
     }
   },
   "minecraft:stray": {
+    "description": {
+      "identifier": "minecraft:stray",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.avoid_mob_type": {
         "entity_types": [
@@ -38095,6 +38880,12 @@
     }
   },
   "minecraft:strider": {
+    "description": {
+      "identifier": "minecraft:strider",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:movement_sound_distance_offset": {
         "value": 0.6
@@ -38690,6 +39481,34 @@
     }
   },
   "minecraft:sulfur_cube": {
+    "description": {
+      "identifier": "minecraft:sulfur_cube",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "minecraft:sulfur_cube_archetype": {
+          "default": "none",
+          "type": "enum",
+          "client_sync": true,
+          "values": [
+            "none",
+            "bouncy",
+            "regular",
+            "slow_bouncy",
+            "slow_flat",
+            "fast_flat",
+            "light",
+            "fast_sliding",
+            "slow_sliding",
+            "sticky",
+            "high_resistance",
+            "explosive",
+            "hot"
+          ]
+        }
+      }
+    },
     "components": {
       "minecraft:collision_box": {
         "width": 0.98,
@@ -40749,6 +41568,12 @@
     }
   },
   "minecraft:tadpole": {
+    "description": {
+      "identifier": "minecraft:tadpole",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:type_family": {
@@ -40871,6 +41696,11 @@
     }
   },
   "minecraft:thrown_trident": {
+    "description": {
+      "identifier": "minecraft:thrown_trident",
+      "is_summonable": false,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -40931,6 +41761,13 @@
     "events": {}
   },
   "minecraft:tnt": {
+    "description": {
+      "identifier": "minecraft:tnt",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:collision_box": {
         "height": 0.98,
@@ -40985,6 +41822,13 @@
     }
   },
   "minecraft:tnt_minecart": {
+    "description": {
+      "identifier": "minecraft:tnt_minecart",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:collision_box": {
         "height": 0.7,
@@ -41174,6 +42018,12 @@
     }
   },
   "minecraft:trader_llama": {
+    "description": {
+      "identifier": "minecraft:trader_llama",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:offspring": {
         "inherit_tamed": false,
@@ -42038,6 +42888,13 @@
     }
   },
   "minecraft:tripod_camera": {
+    "description": {
+      "identifier": "minecraft:tripod_camera",
+      "is_experimental": false,
+      "is_summonable": false,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:collision_box": {
         "height": 1.8,
@@ -42078,6 +42935,13 @@
     "events": {}
   },
   "minecraft:tropicalfish": {
+    "description": {
+      "identifier": "minecraft:tropicalfish",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "water_ambient"
+    },
     "components": {
       "minecraft:behavior.avoid_mob_type": {
         "entity_types": [
@@ -43212,6 +44076,12 @@
     }
   },
   "minecraft:turtle": {
+    "description": {
+      "identifier": "minecraft:turtle",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
     "components": {
       "minecraft:balloonable": {},
       "minecraft:offspring": {
@@ -43510,6 +44380,13 @@
     }
   },
   "minecraft:vex": {
+    "description": {
+      "identifier": "minecraft:vex",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 3
@@ -43684,6 +44561,11 @@
     }
   },
   "minecraft:villager": {
+    "description": {
+      "identifier": "minecraft:villager",
+      "is_summonable": true,
+      "is_spawnable": true
+    },
     "components": {
       "minecraft:annotation.open_door": {},
       "minecraft:behavior.avoid_mob_type": {
@@ -45024,6 +45906,11 @@
     }
   },
   "minecraft:villager_v2": {
+    "description": {
+      "identifier": "minecraft:villager_v2",
+      "is_summonable": false,
+      "is_spawnable": true
+    },
     "components": {
       "minecraft:annotation.open_door": {},
       "minecraft:behavior.avoid_mob_type": {
@@ -49335,6 +50222,12 @@
     }
   },
   "minecraft:vindicator": {
+    "description": {
+      "identifier": "minecraft:vindicator",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 8
@@ -49846,6 +50739,12 @@
     }
   },
   "minecraft:wandering_trader": {
+    "description": {
+      "identifier": "minecraft:wandering_trader",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "creature"
+    },
     "components": {
       "minecraft:behavior.avoid_mob_type": {
         "max_dist": 6,
@@ -50297,6 +51196,13 @@
     }
   },
   "minecraft:warden": {
+    "description": {
+      "identifier": "minecraft:warden",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -50541,6 +51447,11 @@
     }
   },
   "minecraft:wind_charge_projectile": {
+    "description": {
+      "identifier": "minecraft:wind_charge_projectile",
+      "is_summonable": true,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -50609,6 +51520,13 @@
     "events": {}
   },
   "minecraft:witch": {
+    "description": {
+      "identifier": "minecraft:witch",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.drink_potion": {
         "potions": [
@@ -51082,6 +52000,13 @@
     }
   },
   "minecraft:wither": {
+    "description": {
+      "identifier": "minecraft:wither",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:behavior.float": {
         "priority": 1
@@ -51228,6 +52153,13 @@
     }
   },
   "minecraft:wither_skeleton": {
+    "description": {
+      "identifier": "minecraft:wither_skeleton",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 4,
@@ -51813,6 +52745,11 @@
     }
   },
   "minecraft:wither_skull": {
+    "description": {
+      "identifier": "minecraft:wither_skull",
+      "is_summonable": false,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -51896,6 +52833,11 @@
     }
   },
   "minecraft:wither_skull_dangerous": {
+    "description": {
+      "identifier": "minecraft:wither_skull_dangerous",
+      "is_summonable": false,
+      "is_spawnable": false
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -51982,6 +52924,43 @@
     }
   },
   "minecraft:wolf": {
+    "description": {
+      "identifier": "minecraft:wolf",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "minecraft:is_armorable": {
+          "type": "bool",
+          "client_sync": false,
+          "default": false
+        },
+        "minecraft:has_increased_max_health": {
+          "type": "bool",
+          "client_sync": false,
+          "default": false
+        },
+        "minecraft:sound_variant": {
+          "type": "enum",
+          "values": [
+            "default",
+            "big",
+            "cute",
+            "grumpy",
+            "mad",
+            "puglin",
+            "sad"
+          ],
+          "default": "default",
+          "client_sync": true
+        },
+        "minecraft:was_upgraded_to_1_21_100": {
+          "type": "bool",
+          "client_sync": false,
+          "default": false
+        }
+      }
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -53282,6 +54261,12 @@
     }
   },
   "minecraft:xp_bottle": {
+    "description": {
+      "identifier": "minecraft:xp_bottle",
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:type_family": {
         "family": [
@@ -53322,6 +54307,12 @@
     "events": {}
   },
   "minecraft:xp_orb": {
+    "description": {
+      "identifier": "minecraft:xp_orb",
+      "is_summonable": true,
+      "is_spawnable": false,
+      "spawn_category": "misc"
+    },
     "components": {
       "minecraft:buoyant": {
         "apply_gravity": false,
@@ -53360,6 +54351,12 @@
     "events": {}
   },
   "minecraft:zoglin": {
+    "description": {
+      "identifier": "minecraft:zoglin",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:balloonable": {},
       "minecraft:behavior.look_at_player": {
@@ -53666,6 +54663,19 @@
     }
   },
   "minecraft:zombie": {
+    "description": {
+      "identifier": "minecraft:zombie",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "properties": {
+        "minecraft:is_riding_zombie_horse": {
+          "client_sync": false,
+          "default": false,
+          "type": "bool"
+        }
+      },
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 3
@@ -54610,6 +55620,19 @@
     }
   },
   "minecraft:zombie_horse": {
+    "description": {
+      "identifier": "minecraft:zombie_horse",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "minecraft:was_upgraded_to_1_21_130": {
+          "type": "bool",
+          "client_sync": false,
+          "default": false
+        }
+      }
+    },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:ambient_sound_interval": {},
@@ -55263,6 +56286,23 @@
     }
   },
   "minecraft:zombie_nautilus": {
+    "description": {
+      "identifier": "minecraft:zombie_nautilus",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "properties": {
+        "minecraft:variant": {
+          "client_sync": true,
+          "default": "default",
+          "type": "enum",
+          "values": [
+            "default",
+            "coral"
+          ]
+        }
+      },
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:ambient_sound_interval": {
         "event_name": "ambient",
@@ -56179,6 +57219,12 @@
     }
   },
   "minecraft:zombie_pigman": {
+    "description": {
+      "identifier": "minecraft:zombie_pigman",
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 5
@@ -56760,6 +57806,13 @@
     }
   },
   "minecraft:zombie_villager": {
+    "description": {
+      "identifier": "minecraft:zombie_villager",
+      "is_experimental": false,
+      "is_summonable": true,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 3
@@ -57973,6 +59026,12 @@
     }
   },
   "minecraft:zombie_villager_v2": {
+    "description": {
+      "identifier": "minecraft:zombie_villager_v2",
+      "is_summonable": false,
+      "is_spawnable": true,
+      "spawn_category": "monster"
+    },
     "components": {
       "minecraft:attack": {
         "damage": 3

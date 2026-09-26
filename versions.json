@@ -28,7 +28,7 @@
         {
           "name": "entity_definitions.json",
           "format": "JSON",
-          "sha256": "b0a5204290c16b9029e8354c54ed92b2615376fc30d35098a0679ec1c9b7d54b"
+          "sha256": "b0387537d13a74c5d6f9b22d37cb7d109259ed20f3f67d3a4068818d043fe4e3"
         },
         {
           "name": "entity_despawn.json",
@@ -68,7 +68,7 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "ccb0f2ef41b94a015f10b5e287c94dae84bd9d73d4634c84f93b0d2c05b82244"
+          "sha256": "77ffeed062611b91a070edae12daffe5d6b4f623c238a0eecdf01d14c8fd9b05"
         },
         {
           "name": "spawn_rules.json",
