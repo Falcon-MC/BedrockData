@@ -21,6 +21,11 @@
           "sha256": "6f7ca4b80c0ef8da0746e414788c6398d8c68f9dbb207f9bd94c746312ade562"
         },
         {
+          "name": "command_translations.json",
+          "format": "JSON",
+          "sha256": "faaabb1f76e0cd28de48f2a94c1f624f553a11d31e966de002490932962228a4"
+        },
+        {
           "name": "creative_items.json",
           "format": "JSON",
           "sha256": "a6d9490817fd80bd8599ef43964e80a14e0b3cc2d6d2a3a24468aa4a5da21aa7"
