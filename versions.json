@@ -21,6 +21,11 @@
           "sha256": "6f7ca4b80c0ef8da0746e414788c6398d8c68f9dbb207f9bd94c746312ade562"
         },
         {
+          "name": "command_translations.json",
+          "format": "JSON",
+          "sha256": "c652c534e67fb4fea964d366714c9531bf235501badbff6a7856fdbe267377b4"
+        },
+        {
           "name": "creative_items.json",
           "format": "JSON",
           "sha256": "a6d9490817fd80bd8599ef43964e80a14e0b3cc2d6d2a3a24468aa4a5da21aa7"
@@ -68,7 +73,7 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "77ffeed062611b91a070edae12daffe5d6b4f623c238a0eecdf01d14c8fd9b05"
+          "sha256": "b76ea4253d4d202103677553e1bdb70a0ece1e27cc62a19b6428fea93d030616"
         },
         {
           "name": "spawn_rules.json",
