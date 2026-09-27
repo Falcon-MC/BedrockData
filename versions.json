@@ -16,6 +16,11 @@
           "sha256": "53e4bc50d13eb99c75d1022c371965232d243c091f42223981ea4175f50b9dc3"
         },
         {
+          "name": "block_light.json",
+          "format": "JSON",
+          "sha256": "c8539e266cef89355d14bcaece045bf9892022c4b56ab05552fcf8a25d53be8d"
+        },
+        {
           "name": "block_palette.nbt",
           "format": "gzip, big-endian NBT",
           "sha256": "6f7ca4b80c0ef8da0746e414788c6398d8c68f9dbb207f9bd94c746312ade562"

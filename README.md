@@ -42,7 +42,7 @@ Git checkout on Windows, and because the manifest also carries checksums and the
 
 | Protocol | Minecraft | Files | Pending |
 |----------|-----------|-------|---------|
-| 2193 | 1.26.52 | `biome_definitions.nbt`, `block_definitions.nbt`, `block_palette.nbt`, `creative_items.json`, `entity_loot_tables.json`, `item_components.nbt`, `item_palette.json`, `item_tags.json`, `loot_tables.json`, `r16_to_current_item_map.json`, `recipes.json`, `voxel_shapes.json` | none |
+| 2193 | 1.26.52 | `biome_definitions.nbt`, `block_definitions.nbt`, `block_light.json`, `block_palette.nbt`, `creative_items.json`, `entity_loot_tables.json`, `item_components.nbt`, `item_palette.json`, `item_tags.json`, `loot_tables.json`, `r16_to_current_item_map.json`, `recipes.json`, `voxel_shapes.json` | none |
 
 ## File formats
 
@@ -50,6 +50,7 @@ Git checkout on Windows, and because the manifest also carries checksums and the
 |------|--------|
 | `biome_definitions.nbt` | gzip-compressed big-endian NBT, root compound with `biomeStringList` and per-biome definitions including `chunkGenData` |
 | `block_definitions.nbt` | gzip-compressed big-endian NBT, root compound with a `blocks` list; each entry has `name` (string) and `properties` (compound), the data-driven block definitions sent in the start game block palette, CC0 |
+| `block_light.json` | JSON object with a `blocks` array; each entry has `name`, the most common `emission` and `filter` (0 to 15) of its states, and an optional `overrides` array of `{ states, emission, filter }` for the states that differ |
 | `block_palette.nbt` | gzip-compressed big-endian NBT, root compound with a `blocks` list; each entry has `network_id` (int), `name_hash` (long), `name` (string), `version` (int), `states` (compound) |
 | `item_palette.json` | JSON object with an `items` array; each entry has `name` (string), `id` (network id), `version` (int), `component_based` (bool), as sent in the item registry packet, CC0 |
 | `item_components.nbt` | gzip-compressed big-endian NBT, root compound `item identifier -> { components }` for component-based items, CC0 |
