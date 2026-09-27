@@ -73,7 +73,7 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "b76ea4253d4d202103677553e1bdb70a0ece1e27cc62a19b6428fea93d030616"
+          "sha256": "20af25b86ee80b5dcc34bb7f5a5f0c07ab8bb2c3c01093772e7742e40292d277"
         },
         {
           "name": "spawn_rules.json",
