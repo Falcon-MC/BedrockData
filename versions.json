@@ -18,7 +18,7 @@
         {
           "name": "block_light.json",
           "format": "JSON",
-          "sha256": "c8539e266cef89355d14bcaece045bf9892022c4b56ab05552fcf8a25d53be8d"
+          "sha256": "1b99b766fcab98d90d9a8da80858f9709e3319e805eb15f67e610efbf9a8e0a2"
         },
         {
           "name": "block_palette.nbt",

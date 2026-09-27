@@ -3307,17 +3307,8 @@
     },
     {
       "name": "minecraft:flowing_lava",
-      "emission": 0,
-      "filter": 0,
-      "overrides": [
-        {
-          "states": {
-            "liquid_depth": 0
-          },
-          "emission": 15,
-          "filter": 15
-        }
-      ]
+      "emission": 15,
+      "filter": 15
     },
     {
       "name": "minecraft:flowing_water",
@@ -4210,17 +4201,8 @@
     },
     {
       "name": "minecraft:lava",
-      "emission": 0,
-      "filter": 15,
-      "overrides": [
-        {
-          "states": {
-            "liquid_depth": 0
-          },
-          "emission": 15,
-          "filter": 15
-        }
-      ]
+      "emission": 15,
+      "filter": 15
     },
     {
       "name": "minecraft:leaf_litter",
@@ -4738,7 +4720,7 @@
     },
     {
       "name": "minecraft:lit_redstone_lamp",
-      "emission": 0,
+      "emission": 15,
       "filter": 15
     },
     {
