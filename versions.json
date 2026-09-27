@@ -16,6 +16,11 @@
           "sha256": "53e4bc50d13eb99c75d1022c371965232d243c091f42223981ea4175f50b9dc3"
         },
         {
+          "name": "block_light.json",
+          "format": "JSON",
+          "sha256": "7357a7e59b7248326cd503d45b425a5ba0c90f54e78fc0f2d2e8888481930a9d"
+        },
+        {
           "name": "block_palette.nbt",
           "format": "gzip, big-endian NBT",
           "sha256": "6f7ca4b80c0ef8da0746e414788c6398d8c68f9dbb207f9bd94c746312ade562"
@@ -73,7 +78,7 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "20af25b86ee80b5dcc34bb7f5a5f0c07ab8bb2c3c01093772e7742e40292d277"
+          "sha256": "65ba80c2a8d8f34822ed135c4bcd743cbe7da94fccc078672aca7e2289e83619"
         },
         {
           "name": "spawn_rules.json",
