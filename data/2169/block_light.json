@@ -1,0 +1,8281 @@
+{
+  "blocks": [
+    {
+      "name": "minecraft:acacia_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:acacia_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:acacia_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:acacia_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:acacia_fence_gate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:acacia_hanging_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:acacia_leaves",
+      "emission": 0,
+      "filter": 1,
+      "overrides": [
+        {
+          "states": {
+            "new_leaf_type": "acacia",
+            "persistent_bit": false,
+            "update_bit": true
+          },
+          "emission": 0,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:acacia_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:acacia_planks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:acacia_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:acacia_sapling",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:acacia_shelf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:acacia_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:acacia_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:acacia_standing_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:acacia_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:acacia_wall_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:acacia_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:activator_rail",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:air",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:allium",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:allow",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:amethyst_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:amethyst_cluster",
+      "emission": 5,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "facing_direction": 0,
+            "minecraft:block_face": "down"
+          },
+          "emission": 0,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:ancient_debris",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:andesite",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:andesite_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:andesite_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:andesite_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:andesite_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:anvil",
+      "emission": 0,
+      "filter": 3
+    },
+    {
+      "name": "minecraft:azalea",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:azalea_leaves",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:azalea_leaves_flowered",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:azure_bluet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:bamboo_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:bamboo_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo_fence_gate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo_hanging_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo_mosaic",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:bamboo_mosaic_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:bamboo_mosaic_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:bamboo_mosaic_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo_planks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:bamboo_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo_sapling",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo_shelf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:bamboo_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo_standing_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bamboo_wall_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:barrel",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:barrier",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:basalt",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:beacon",
+      "emission": 15,
+      "filter": 14
+    },
+    {
+      "name": "minecraft:bed",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bedrock",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:bee_nest",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:beehive",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:beetroot",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bell",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:big_dripleaf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:birch_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:birch_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:birch_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:birch_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:birch_fence_gate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:birch_hanging_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:birch_leaves",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:birch_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:birch_planks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:birch_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:birch_sapling",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:birch_shelf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:birch_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:birch_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:birch_standing_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:birch_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:birch_wall_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:birch_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:black_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:black_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:black_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:black_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:black_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:black_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:black_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:black_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:black_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:black_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:black_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:blackstone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:blackstone_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:blackstone_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:blackstone_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:blackstone_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:blast_furnace",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:blue_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:blue_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:blue_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:blue_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:blue_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:blue_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:blue_ice",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:blue_orchid",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:blue_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:blue_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:blue_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:blue_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:blue_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:bone_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:bookshelf",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:border_block",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:brain_coral",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:brain_coral_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:brain_coral_fan",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:brain_coral_wall_fan",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:brewing_stand",
+      "emission": 0,
+      "filter": 3
+    },
+    {
+      "name": "minecraft:brick_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:brick_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:brick_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:brown_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:brown_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:brown_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:brown_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:brown_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:brown_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:brown_mushroom",
+      "emission": 1,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:brown_mushroom_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:brown_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:brown_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:brown_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:brown_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:brown_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:bubble_column",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bubble_coral",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:bubble_coral_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:bubble_coral_fan",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:bubble_coral_wall_fan",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:budding_amethyst",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:bush",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cactus",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cactus_flower",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cake",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:calcite",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:calibrated_sculk_sensor",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "direction": 0,
+            "minecraft:cardinal_direction": "south",
+            "sculk_sensor_phase": 1
+          },
+          "emission": 1,
+          "filter": 0
+        },
+        {
+          "states": {
+            "direction": 1,
+            "minecraft:cardinal_direction": "west",
+            "sculk_sensor_phase": 1
+          },
+          "emission": 1,
+          "filter": 0
+        },
+        {
+          "states": {
+            "direction": 2,
+            "minecraft:cardinal_direction": "north",
+            "sculk_sensor_phase": 1
+          },
+          "emission": 1,
+          "filter": 0
+        },
+        {
+          "states": {
+            "direction": 3,
+            "minecraft:cardinal_direction": "east",
+            "sculk_sensor_phase": 1
+          },
+          "emission": 1,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:camera",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:campfire",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "direction": 0,
+            "extinguished": false,
+            "minecraft:cardinal_direction": "south"
+          },
+          "emission": 15,
+          "filter": 0
+        },
+        {
+          "states": {
+            "direction": 1,
+            "extinguished": false,
+            "minecraft:cardinal_direction": "west"
+          },
+          "emission": 15,
+          "filter": 0
+        },
+        {
+          "states": {
+            "direction": 2,
+            "extinguished": false,
+            "minecraft:cardinal_direction": "north"
+          },
+          "emission": 15,
+          "filter": 0
+        },
+        {
+          "states": {
+            "direction": 3,
+            "extinguished": false,
+            "minecraft:cardinal_direction": "east"
+          },
+          "emission": 15,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:carrots",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cartography_table",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:carved_pumpkin",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cauldron",
+      "emission": 0,
+      "filter": 3,
+      "overrides": [
+        {
+          "states": {
+            "cauldron_liquid": "lava",
+            "fill_level": 1
+          },
+          "emission": 15,
+          "filter": 14
+        },
+        {
+          "states": {
+            "cauldron_liquid": "lava",
+            "fill_level": 2
+          },
+          "emission": 15,
+          "filter": 14
+        },
+        {
+          "states": {
+            "cauldron_liquid": "lava",
+            "fill_level": 3
+          },
+          "emission": 15,
+          "filter": 14
+        },
+        {
+          "states": {
+            "cauldron_liquid": "lava",
+            "fill_level": 4
+          },
+          "emission": 15,
+          "filter": 14
+        },
+        {
+          "states": {
+            "cauldron_liquid": "lava",
+            "fill_level": 5
+          },
+          "emission": 15,
+          "filter": 14
+        },
+        {
+          "states": {
+            "cauldron_liquid": "lava",
+            "fill_level": 6
+          },
+          "emission": 15,
+          "filter": 14
+        }
+      ]
+    },
+    {
+      "name": "minecraft:cave_vines",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cave_vines_body_with_berries",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cave_vines_head_with_berries",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:chain_command_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chalkboard",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:chemical_heat",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cherry_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cherry_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cherry_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cherry_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cherry_fence_gate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cherry_hanging_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cherry_leaves",
+      "emission": 0,
+      "filter": 1,
+      "overrides": [
+        {
+          "states": {
+            "persistent_bit": false,
+            "update_bit": true
+          },
+          "emission": 0,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:cherry_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cherry_planks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cherry_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cherry_sapling",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cherry_shelf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cherry_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:cherry_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cherry_standing_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cherry_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cherry_wall_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cherry_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chest",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:chipped_anvil",
+      "emission": 0,
+      "filter": 3
+    },
+    {
+      "name": "minecraft:chiseled_bookshelf",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chiseled_cinnabar",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chiseled_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chiseled_deepslate",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chiseled_nether_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chiseled_polished_blackstone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chiseled_quartz_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chiseled_red_sandstone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chiseled_resin_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chiseled_sandstone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chiseled_stone_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chiseled_sulfur",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chiseled_tuff",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chiseled_tuff_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:chorus_flower",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:chorus_plant",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cinnabar",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cinnabar_brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cinnabar_brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:cinnabar_brick_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cinnabar_brick_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cinnabar_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cinnabar_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cinnabar_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:cinnabar_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cinnabar_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:clay",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:client_request_placeholder_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:closed_eyeblossom",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:coal_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:coal_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:coarse_dirt",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cobbled_deepslate",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cobbled_deepslate_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cobbled_deepslate_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:cobbled_deepslate_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cobbled_deepslate_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cobblestone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cobblestone_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cobblestone_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:cobblestone_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cocoa",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:colored_torch_blue",
+      "emission": 14,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:colored_torch_green",
+      "emission": 14,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:colored_torch_purple",
+      "emission": 14,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:colored_torch_red",
+      "emission": 14,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:command_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:composter",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:compound_creator",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:conduit",
+      "emission": 15,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:copper_bars",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:copper_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:copper_bulb",
+      "emission": 0,
+      "filter": 15,
+      "overrides": [
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": false
+          },
+          "emission": 15,
+          "filter": 15
+        },
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": true
+          },
+          "emission": 15,
+          "filter": 15
+        }
+      ]
+    },
+    {
+      "name": "minecraft:copper_chain",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:copper_chest",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:copper_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:copper_golem_statue",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:copper_grate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:copper_lantern",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "hanging": false
+          },
+          "emission": 15,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:copper_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:copper_torch",
+      "emission": 14,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:copper_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cornflower",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cracked_deepslate_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cracked_deepslate_tiles",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cracked_nether_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cracked_polished_blackstone_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cracked_stone_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:crafter",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:crafting_table",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:creaking_heart",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:creeper_head",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crimson_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crimson_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crimson_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:crimson_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crimson_fence_gate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crimson_fungus",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crimson_hanging_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crimson_hyphae",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:crimson_nylium",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:crimson_planks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:crimson_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crimson_roots",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crimson_shelf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crimson_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:crimson_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crimson_standing_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crimson_stem",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:crimson_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crimson_wall_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:crying_obsidian",
+      "emission": 10,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cut_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cut_copper_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:cut_copper_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cut_red_sandstone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cut_red_sandstone_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cut_red_sandstone_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:cut_sandstone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cut_sandstone_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cut_sandstone_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:cyan_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:cyan_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:cyan_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cyan_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cyan_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cyan_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cyan_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cyan_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cyan_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:cyan_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:cyan_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:damaged_anvil",
+      "emission": 0,
+      "filter": 3
+    },
+    {
+      "name": "minecraft:dandelion",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dark_oak_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dark_oak_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dark_oak_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dark_oak_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dark_oak_fence_gate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dark_oak_hanging_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dark_oak_leaves",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:dark_oak_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dark_oak_planks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dark_oak_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dark_oak_sapling",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dark_oak_shelf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dark_oak_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:dark_oak_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dark_oak_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dark_oak_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dark_prismarine",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dark_prismarine_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dark_prismarine_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:dark_prismarine_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:darkoak_standing_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:darkoak_wall_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:daylight_detector",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:daylight_detector_inverted",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_brain_coral",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_brain_coral_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dead_brain_coral_fan",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_brain_coral_wall_fan",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_bubble_coral",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_bubble_coral_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dead_bubble_coral_fan",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_bubble_coral_wall_fan",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_fire_coral",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_fire_coral_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dead_fire_coral_fan",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_fire_coral_wall_fan",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_horn_coral",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_horn_coral_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dead_horn_coral_fan",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_horn_coral_wall_fan",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_tube_coral",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_tube_coral_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dead_tube_coral_fan",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dead_tube_coral_wall_fan",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:deadbush",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:decorated_pot",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:deepslate",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deepslate_brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deepslate_brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:deepslate_brick_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:deepslate_brick_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:deepslate_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deepslate_coal_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deepslate_copper_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deepslate_diamond_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deepslate_emerald_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deepslate_gold_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deepslate_iron_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deepslate_lapis_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deepslate_redstone_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deepslate_tile_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deepslate_tile_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:deepslate_tile_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:deepslate_tile_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:deepslate_tiles",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deny",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deprecated_anvil",
+      "emission": 0,
+      "filter": 3
+    },
+    {
+      "name": "minecraft:deprecated_purpur_block_1",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:deprecated_purpur_block_2",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:detector_rail",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:diamond_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:diamond_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:diorite",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:diorite_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:diorite_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:diorite_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:diorite_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dirt",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dirt_with_roots",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dispenser",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:double_cut_copper_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dragon_egg",
+      "emission": 1,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dragon_head",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dried_ghast",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:dried_kelp_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dripstone_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:dropper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_0",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_1",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_10",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_100",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_101",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_102",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_103",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_104",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_105",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_106",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_107",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_108",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_109",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_11",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_110",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_111",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_112",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_113",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_114",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_115",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_116",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_117",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_118",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_12",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_13",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_14",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_15",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_16",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_17",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_18",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_19",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_2",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_20",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_21",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_22",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_23",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_24",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_25",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_26",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_27",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_28",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_29",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_3",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_30",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_31",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_32",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_33",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_34",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_35",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_36",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_37",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_38",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_39",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_4",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_40",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_41",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_42",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_43",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_44",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_45",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_46",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_47",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_48",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_49",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_5",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_50",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_51",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_52",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_53",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_54",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_55",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_56",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_57",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_58",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_59",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_6",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_60",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_61",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_62",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_63",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_64",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_65",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_66",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_67",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_68",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_69",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_7",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_70",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_71",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_72",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_73",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_74",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_75",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_76",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_77",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_78",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_79",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_8",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_80",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_81",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_82",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_83",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_84",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_85",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_86",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_87",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_88",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_89",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_9",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_90",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_91",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_92",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_93",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_94",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_95",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_96",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_97",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_98",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_99",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:element_constructor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:emerald_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:emerald_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:enchanting_table",
+      "emission": 7,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:end_brick_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:end_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:end_gateway",
+      "emission": 15,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:end_portal",
+      "emission": 15,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:end_portal_frame",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:end_rod",
+      "emission": 14,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:end_stone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:end_stone_brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:end_stone_brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:end_stone_brick_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:ender_chest",
+      "emission": 7,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:exposed_chiseled_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:exposed_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:exposed_copper_bars",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:exposed_copper_bulb",
+      "emission": 0,
+      "filter": 15,
+      "overrides": [
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": false
+          },
+          "emission": 12,
+          "filter": 15
+        },
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": true
+          },
+          "emission": 12,
+          "filter": 15
+        }
+      ]
+    },
+    {
+      "name": "minecraft:exposed_copper_chain",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:exposed_copper_chest",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:exposed_copper_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:exposed_copper_golem_statue",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:exposed_copper_grate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:exposed_copper_lantern",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "hanging": false
+          },
+          "emission": 15,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:exposed_copper_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:exposed_cut_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:exposed_cut_copper_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:exposed_cut_copper_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:exposed_double_cut_copper_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:exposed_lightning_rod",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:farmland",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:fence_gate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:fern",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:fire",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "age": 0
+          },
+          "emission": 15,
+          "filter": 0
+        },
+        {
+          "states": {
+            "age": 1
+          },
+          "emission": 15,
+          "filter": 0
+        },
+        {
+          "states": {
+            "age": 2
+          },
+          "emission": 15,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:fire_coral",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:fire_coral_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:fire_coral_fan",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:fire_coral_wall_fan",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:firefly_bush",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:fletching_table",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:flower_pot",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:flowering_azalea",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:flowing_lava",
+      "emission": 15,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:flowing_water",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "liquid_depth": 0
+          },
+          "emission": 0,
+          "filter": 1
+        }
+      ]
+    },
+    {
+      "name": "minecraft:frame",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:frog_spawn",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:frosted_ice",
+      "emission": 0,
+      "filter": 3,
+      "overrides": [
+        {
+          "states": {
+            "age": 3
+          },
+          "emission": 0,
+          "filter": 1
+        }
+      ]
+    },
+    {
+      "name": "minecraft:furnace",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:gilded_blackstone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:glow_frame",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:glow_lichen",
+      "emission": 7,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "multi_face_direction_bits": 0
+          },
+          "emission": 0,
+          "filter": 0
+        },
+        {
+          "states": {
+            "multi_face_direction_bits": 2
+          },
+          "emission": 0,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:glowingobsidian",
+      "emission": 13,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:glowstone",
+      "emission": 15,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:gold_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:gold_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:golden_dandelion",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:golden_rail",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:granite",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:granite_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:granite_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:granite_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:granite_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:grass_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:grass_path",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:gravel",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:gray_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:gray_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:gray_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:gray_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:gray_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:gray_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:gray_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:gray_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:gray_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:gray_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:gray_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:green_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:green_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:green_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:green_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:green_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:green_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:green_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:green_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:green_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:green_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:green_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:grindstone",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hanging_roots",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_black_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_black_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_blue_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_blue_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_brown_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_brown_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_cyan_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_cyan_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_gray_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_gray_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_green_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_green_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_light_blue_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_light_blue_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_light_gray_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_light_gray_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_lime_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_lime_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_magenta_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_magenta_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_orange_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_orange_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_pink_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_pink_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_purple_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_purple_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_red_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_red_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_white_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_white_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_yellow_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hard_yellow_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:hardened_clay",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:hay_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:heavy_core",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:heavy_weighted_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:honey_block",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:honeycomb_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:hopper",
+      "emission": 0,
+      "filter": 3
+    },
+    {
+      "name": "minecraft:horn_coral",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:horn_coral_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:horn_coral_fan",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:horn_coral_wall_fan",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:ice",
+      "emission": 0,
+      "filter": 3
+    },
+    {
+      "name": "minecraft:infested_chiseled_stone_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:infested_cobblestone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:infested_cracked_stone_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:infested_deepslate",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:infested_mossy_stone_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:infested_stone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:infested_stone_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:info_update",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:info_update2",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:invisible_bedrock",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:iron_bars",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:iron_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:iron_chain",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:iron_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:iron_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:iron_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:jigsaw",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:jukebox",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:jungle_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:jungle_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:jungle_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:jungle_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:jungle_fence_gate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:jungle_hanging_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:jungle_leaves",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:jungle_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:jungle_planks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:jungle_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:jungle_sapling",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:jungle_shelf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:jungle_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:jungle_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:jungle_standing_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:jungle_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:jungle_wall_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:jungle_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:kelp",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:lab_table",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:ladder",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:lantern",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "hanging": false
+          },
+          "emission": 15,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:lapis_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:lapis_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:large_amethyst_bud",
+      "emission": 4,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "facing_direction": 0,
+            "minecraft:block_face": "down"
+          },
+          "emission": 0,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:large_fern",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:lava",
+      "emission": 15,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:leaf_litter",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:lectern",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:lever",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_0",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_1",
+      "emission": 1,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_10",
+      "emission": 10,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_11",
+      "emission": 11,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_12",
+      "emission": 12,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_13",
+      "emission": 13,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_14",
+      "emission": 14,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_15",
+      "emission": 15,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_2",
+      "emission": 2,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_3",
+      "emission": 3,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_4",
+      "emission": 4,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_5",
+      "emission": 5,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_6",
+      "emission": 6,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_7",
+      "emission": 7,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_8",
+      "emission": 8,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_block_9",
+      "emission": 9,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_blue_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:light_blue_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:light_blue_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_blue_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:light_blue_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:light_blue_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:light_blue_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_blue_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_blue_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_blue_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:light_blue_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:light_gray_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:light_gray_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:light_gray_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_gray_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:light_gray_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:light_gray_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_gray_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_gray_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:light_gray_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:light_gray_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:light_weighted_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:lightning_rod",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:lilac",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:lily_of_the_valley",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:lime_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:lime_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:lime_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:lime_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:lime_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:lime_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:lime_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:lime_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:lime_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:lime_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:lime_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:lit_blast_furnace",
+      "emission": 13,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:lit_deepslate_redstone_ore",
+      "emission": 9,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:lit_furnace",
+      "emission": 13,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:lit_pumpkin",
+      "emission": 15,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:lit_redstone_lamp",
+      "emission": 15,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:lit_redstone_ore",
+      "emission": 9,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:lit_smoker",
+      "emission": 13,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:lodestone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:loom",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:magenta_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:magenta_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:magenta_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:magenta_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:magenta_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:magenta_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:magenta_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:magenta_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:magenta_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:magenta_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:magenta_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:magma",
+      "emission": 3,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:mangrove_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mangrove_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mangrove_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:mangrove_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mangrove_fence_gate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mangrove_hanging_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mangrove_leaves",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:mangrove_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:mangrove_planks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:mangrove_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mangrove_propagule",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mangrove_roots",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mangrove_shelf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mangrove_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:mangrove_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mangrove_standing_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mangrove_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mangrove_wall_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mangrove_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:material_reducer",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:medium_amethyst_bud",
+      "emission": 2,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "facing_direction": 0,
+            "minecraft:block_face": "down"
+          },
+          "emission": 0,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:melon_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:melon_stem",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mob_spawner",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:moss_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:moss_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mossy_cobblestone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:mossy_cobblestone_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:mossy_cobblestone_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:mossy_cobblestone_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mossy_cobblestone_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mossy_stone_brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:mossy_stone_brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:mossy_stone_brick_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mossy_stone_brick_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mossy_stone_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:moving_block",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mud",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:mud_brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:mud_brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:mud_brick_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mud_brick_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:mud_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:muddy_mangrove_roots",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:mushroom_stem",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:mycelium",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:nether_brick",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:nether_brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:nether_brick_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:nether_brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:nether_brick_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:nether_brick_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:nether_gold_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:nether_sprouts",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:nether_wart",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:nether_wart_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:netherite_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:netherrack",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:netherreactor",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:normal_stone_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:normal_stone_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:normal_stone_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:noteblock",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:oak_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:oak_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oak_hanging_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oak_leaves",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:oak_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:oak_planks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:oak_sapling",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oak_shelf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oak_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:oak_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oak_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:observer",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:obsidian",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:ochre_froglight",
+      "emission": 15,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:open_eyeblossom",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:orange_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:orange_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:orange_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:orange_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:orange_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:orange_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:orange_poplar_leaves",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:orange_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:orange_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:orange_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:orange_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:orange_tulip",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:orange_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:oxeye_daisy",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oxidized_chiseled_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:oxidized_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:oxidized_copper_bars",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oxidized_copper_bulb",
+      "emission": 0,
+      "filter": 15,
+      "overrides": [
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": false
+          },
+          "emission": 4,
+          "filter": 15
+        },
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": true
+          },
+          "emission": 4,
+          "filter": 15
+        }
+      ]
+    },
+    {
+      "name": "minecraft:oxidized_copper_chain",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oxidized_copper_chest",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oxidized_copper_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oxidized_copper_golem_statue",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oxidized_copper_grate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oxidized_copper_lantern",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "hanging": false
+          },
+          "emission": 15,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:oxidized_copper_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oxidized_cut_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:oxidized_cut_copper_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:oxidized_cut_copper_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:oxidized_double_cut_copper_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:oxidized_lightning_rod",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:packed_ice",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:packed_mud",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:pale_hanging_moss",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_moss_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:pale_moss_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_oak_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_oak_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_oak_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:pale_oak_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_oak_fence_gate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_oak_hanging_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_oak_leaves",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:pale_oak_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:pale_oak_planks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:pale_oak_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_oak_sapling",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_oak_shelf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_oak_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:pale_oak_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_oak_standing_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_oak_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_oak_wall_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pale_oak_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:pearlescent_froglight",
+      "emission": 15,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:peony",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:petrified_oak_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:petrified_oak_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:piglin_head",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pink_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:pink_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:pink_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pink_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:pink_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:pink_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:pink_petals",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pink_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pink_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pink_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pink_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:pink_tulip",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pink_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:piston",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:piston_arm_collision",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pitcher_crop",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pitcher_plant",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:player_head",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:podzol",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:pointed_dripstone",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_andesite",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_andesite_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_andesite_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:polished_andesite_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_basalt",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_blackstone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_blackstone_brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_blackstone_brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:polished_blackstone_brick_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_blackstone_brick_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_blackstone_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_blackstone_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_blackstone_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_blackstone_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_blackstone_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:polished_blackstone_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_blackstone_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_cinnabar",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_cinnabar_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_cinnabar_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:polished_cinnabar_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_cinnabar_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_deepslate",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_deepslate_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_deepslate_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:polished_deepslate_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_deepslate_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_diorite",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_diorite_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_diorite_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:polished_diorite_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_granite",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_granite_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_granite_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:polished_granite_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_sulfur",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_sulfur_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_sulfur_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:polished_sulfur_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_sulfur_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_tuff",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_tuff_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:polished_tuff_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:polished_tuff_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:polished_tuff_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:poplar_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:poplar_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:poplar_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:poplar_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:poplar_fence_gate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:poplar_hanging_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:poplar_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:poplar_planks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:poplar_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:poplar_sapling",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:poplar_shelf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:poplar_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:poplar_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:poplar_standing_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:poplar_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:poplar_wall_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:poplar_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:poppy",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:portal",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:potatoes",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:potent_sulfur",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:powder_snow",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:powered_comparator",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:powered_repeater",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:prismarine",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:prismarine_brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:prismarine_brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:prismarine_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:prismarine_bricks_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:prismarine_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:prismarine_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:prismarine_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:prismarine_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:pumpkin",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:pumpkin_stem",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:purple_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:purple_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:purple_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:purple_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:purple_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:purple_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:purple_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:purple_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:purple_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:purple_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:purple_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:purpur_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:purpur_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:purpur_pillar",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:purpur_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:purpur_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:quartz_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:quartz_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:quartz_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:quartz_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:quartz_pillar",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:quartz_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:quartz_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:rail",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:raw_copper_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:raw_gold_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:raw_iron_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:red_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:red_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:red_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:red_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:red_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:red_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:red_mushroom",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:red_mushroom_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:red_nether_brick",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:red_nether_brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:red_nether_brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:red_nether_brick_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:red_nether_brick_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:red_poplar_leaves",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:red_sand",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:red_sandstone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:red_sandstone_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:red_sandstone_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:red_sandstone_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:red_sandstone_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:red_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:red_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:red_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:red_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:red_tulip",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:red_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:redstone_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:redstone_lamp",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:redstone_ore",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:redstone_torch",
+      "emission": 7,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:reeds",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:reinforced_deepslate",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:repeating_command_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:reserved6",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:resin_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:resin_brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:resin_brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:resin_brick_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:resin_brick_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:resin_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:resin_clump",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:respawn_anchor",
+      "emission": 0,
+      "filter": 15,
+      "overrides": [
+        {
+          "states": {
+            "respawn_anchor_charge": 1
+          },
+          "emission": 3,
+          "filter": 15
+        },
+        {
+          "states": {
+            "respawn_anchor_charge": 2
+          },
+          "emission": 7,
+          "filter": 15
+        },
+        {
+          "states": {
+            "respawn_anchor_charge": 3
+          },
+          "emission": 11,
+          "filter": 15
+        },
+        {
+          "states": {
+            "respawn_anchor_charge": 4
+          },
+          "emission": 15,
+          "filter": 15
+        }
+      ]
+    },
+    {
+      "name": "minecraft:rose_bush",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sand",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:sandstone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:sandstone_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:sandstone_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:sandstone_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sandstone_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:scaffolding",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sculk",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:sculk_catalyst",
+      "emission": 6,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:sculk_sensor",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "powered_bit": true,
+            "sculk_sensor_phase": 1
+          },
+          "emission": 1,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:sculk_shrieker",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sculk_vein",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sea_lantern",
+      "emission": 15,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:sea_pickle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "cluster_count": 0,
+            "dead_bit": false
+          },
+          "emission": 6,
+          "filter": 1
+        },
+        {
+          "states": {
+            "cluster_count": 1,
+            "dead_bit": false
+          },
+          "emission": 9,
+          "filter": 1
+        },
+        {
+          "states": {
+            "cluster_count": 2,
+            "dead_bit": false
+          },
+          "emission": 12,
+          "filter": 1
+        },
+        {
+          "states": {
+            "cluster_count": 3,
+            "dead_bit": false
+          },
+          "emission": 15,
+          "filter": 1
+        }
+      ]
+    },
+    {
+      "name": "minecraft:seagrass",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:short_dry_grass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:short_grass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:shroomlight",
+      "emission": 15,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:silver_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:skeleton_skull",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:slime",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:small_amethyst_bud",
+      "emission": 1,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "facing_direction": 0,
+            "minecraft:block_face": "down"
+          },
+          "emission": 0,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:small_dripleaf_block",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:smithing_table",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:smoker",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:smooth_basalt",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:smooth_quartz",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:smooth_quartz_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:smooth_quartz_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:smooth_quartz_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:smooth_red_sandstone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:smooth_red_sandstone_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:smooth_red_sandstone_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:smooth_red_sandstone_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:smooth_sandstone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:smooth_sandstone_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:smooth_sandstone_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:smooth_sandstone_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:smooth_stone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:smooth_stone_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:smooth_stone_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:sniffer_egg",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:snow",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:snow_layer",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:soul_campfire",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "direction": 0,
+            "extinguished": false,
+            "minecraft:cardinal_direction": "south"
+          },
+          "emission": 10,
+          "filter": 0
+        },
+        {
+          "states": {
+            "direction": 1,
+            "extinguished": false,
+            "minecraft:cardinal_direction": "west"
+          },
+          "emission": 10,
+          "filter": 0
+        },
+        {
+          "states": {
+            "direction": 2,
+            "extinguished": false,
+            "minecraft:cardinal_direction": "north"
+          },
+          "emission": 10,
+          "filter": 0
+        },
+        {
+          "states": {
+            "direction": 3,
+            "extinguished": false,
+            "minecraft:cardinal_direction": "east"
+          },
+          "emission": 10,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:soul_fire",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:soul_lantern",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "hanging": false
+          },
+          "emission": 10,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:soul_sand",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:soul_soil",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:soul_torch",
+      "emission": 10,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sponge",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:spore_blossom",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:spruce_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:spruce_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:spruce_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:spruce_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:spruce_fence_gate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:spruce_hanging_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:spruce_leaves",
+      "emission": 0,
+      "filter": 1,
+      "overrides": [
+        {
+          "states": {
+            "old_leaf_type": "spruce",
+            "persistent_bit": false,
+            "update_bit": true
+          },
+          "emission": 0,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:spruce_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:spruce_planks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:spruce_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:spruce_sapling",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:spruce_shelf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:spruce_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:spruce_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:spruce_standing_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:spruce_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:spruce_wall_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:spruce_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:standing_banner",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:standing_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sticky_piston",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sticky_piston_arm_collision",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:stone",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stone_brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stone_brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:stone_brick_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:stone_brick_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:stone_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stone_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:stone_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:stone_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:stonecutter",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stonecutter_block",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:straw_bed",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:stripped_acacia_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_acacia_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_bamboo_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_birch_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_birch_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_cherry_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_cherry_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_crimson_hyphae",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_crimson_stem",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_dark_oak_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_dark_oak_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_jungle_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_jungle_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_mangrove_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_mangrove_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_oak_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_oak_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_pale_oak_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_pale_oak_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_poplar_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_poplar_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_spruce_log",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_spruce_wood",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_warped_hyphae",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:stripped_warped_stem",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:structure_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:structure_void",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sulfur",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:sulfur_brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:sulfur_brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:sulfur_brick_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sulfur_brick_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sulfur_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:sulfur_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:sulfur_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:sulfur_spike",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sulfur_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sulfur_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:sunflower",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:suspicious_gravel",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:suspicious_sand",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:sweet_berry_bush",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:tall_dry_grass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:tall_grass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:target",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:tinted_glass",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:tnt",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:torch",
+      "emission": 14,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:torchflower",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:torchflower_crop",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:trapped_chest",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:trial_spawner",
+      "emission": 8,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "ominous": false,
+            "trial_spawner_state": 0
+          },
+          "emission": 0,
+          "filter": 0
+        },
+        {
+          "states": {
+            "ominous": false,
+            "trial_spawner_state": 1
+          },
+          "emission": 4,
+          "filter": 0
+        },
+        {
+          "states": {
+            "ominous": false,
+            "trial_spawner_state": 5
+          },
+          "emission": 0,
+          "filter": 0
+        },
+        {
+          "states": {
+            "ominous": true,
+            "trial_spawner_state": 0
+          },
+          "emission": 0,
+          "filter": 0
+        },
+        {
+          "states": {
+            "ominous": true,
+            "trial_spawner_state": 1
+          },
+          "emission": 4,
+          "filter": 0
+        },
+        {
+          "states": {
+            "ominous": true,
+            "trial_spawner_state": 5
+          },
+          "emission": 0,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:trip_wire",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:tripwire_hook",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:tube_coral",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:tube_coral_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:tube_coral_fan",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:tube_coral_wall_fan",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:tuff",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:tuff_brick_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:tuff_brick_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:tuff_brick_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:tuff_brick_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:tuff_bricks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:tuff_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:tuff_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:tuff_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:tuff_wall",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:turtle_egg",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:twisting_vines",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:underwater_tnt",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:underwater_torch",
+      "emission": 14,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:undyed_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:unknown",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:unlit_redstone_torch",
+      "emission": 7,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:unpowered_comparator",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:unpowered_repeater",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:vault",
+      "emission": 6,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:verdant_froglight",
+      "emission": 15,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:vine",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:wall_banner",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:wall_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_double_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:warped_fence",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_fence_gate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_fungus",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_hanging_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_hyphae",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:warped_nylium",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:warped_planks",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:warped_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_roots",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_shelf",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:warped_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_standing_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_stem",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:warped_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_wall_sign",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:warped_wart_block",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:water",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:waterlily",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_chiseled_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_copper_bars",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_copper_bulb",
+      "emission": 0,
+      "filter": 15,
+      "overrides": [
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": false
+          },
+          "emission": 15,
+          "filter": 15
+        },
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": true
+          },
+          "emission": 15,
+          "filter": 15
+        }
+      ]
+    },
+    {
+      "name": "minecraft:waxed_copper_chain",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_copper_chest",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_copper_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_copper_golem_statue",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_copper_grate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_copper_lantern",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "hanging": false
+          },
+          "emission": 15,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:waxed_copper_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_cut_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_cut_copper_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:waxed_cut_copper_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_double_cut_copper_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_exposed_chiseled_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_exposed_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_exposed_copper_bars",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_exposed_copper_bulb",
+      "emission": 0,
+      "filter": 15,
+      "overrides": [
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": false
+          },
+          "emission": 12,
+          "filter": 15
+        },
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": true
+          },
+          "emission": 12,
+          "filter": 15
+        }
+      ]
+    },
+    {
+      "name": "minecraft:waxed_exposed_copper_chain",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_exposed_copper_chest",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_exposed_copper_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_exposed_copper_golem_statue",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_exposed_copper_grate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_exposed_copper_lantern",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "hanging": false
+          },
+          "emission": 15,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:waxed_exposed_copper_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_exposed_cut_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_exposed_cut_copper_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:waxed_exposed_cut_copper_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_exposed_double_cut_copper_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_exposed_lightning_rod",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_lightning_rod",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_oxidized_chiseled_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_oxidized_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_oxidized_copper_bars",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_oxidized_copper_bulb",
+      "emission": 0,
+      "filter": 15,
+      "overrides": [
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": false
+          },
+          "emission": 4,
+          "filter": 15
+        },
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": true
+          },
+          "emission": 4,
+          "filter": 15
+        }
+      ]
+    },
+    {
+      "name": "minecraft:waxed_oxidized_copper_chain",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_oxidized_copper_chest",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_oxidized_copper_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_oxidized_copper_golem_statue",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_oxidized_copper_grate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_oxidized_copper_lantern",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "hanging": false
+          },
+          "emission": 15,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:waxed_oxidized_copper_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_oxidized_cut_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_oxidized_cut_copper_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:waxed_oxidized_cut_copper_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_oxidized_double_cut_copper_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_oxidized_lightning_rod",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_weathered_chiseled_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_weathered_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_weathered_copper_bars",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_weathered_copper_bulb",
+      "emission": 0,
+      "filter": 15,
+      "overrides": [
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": false
+          },
+          "emission": 8,
+          "filter": 15
+        },
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": true
+          },
+          "emission": 8,
+          "filter": 15
+        }
+      ]
+    },
+    {
+      "name": "minecraft:waxed_weathered_copper_chain",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_weathered_copper_chest",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_weathered_copper_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_weathered_copper_golem_statue",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_weathered_copper_grate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_weathered_copper_lantern",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "hanging": false
+          },
+          "emission": 15,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:waxed_weathered_copper_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_weathered_cut_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_weathered_cut_copper_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:waxed_weathered_cut_copper_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:waxed_weathered_double_cut_copper_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:waxed_weathered_lightning_rod",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:weathered_chiseled_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:weathered_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:weathered_copper_bars",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:weathered_copper_bulb",
+      "emission": 0,
+      "filter": 15,
+      "overrides": [
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": false
+          },
+          "emission": 8,
+          "filter": 15
+        },
+        {
+          "states": {
+            "lit": true,
+            "powered_bit": true
+          },
+          "emission": 8,
+          "filter": 15
+        }
+      ]
+    },
+    {
+      "name": "minecraft:weathered_copper_chain",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:weathered_copper_chest",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:weathered_copper_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:weathered_copper_golem_statue",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:weathered_copper_grate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:weathered_copper_lantern",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "hanging": false
+          },
+          "emission": 15,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:weathered_copper_trapdoor",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:weathered_cut_copper",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:weathered_cut_copper_slab",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:weathered_cut_copper_stairs",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:weathered_double_cut_copper_slab",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:weathered_lightning_rod",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:web",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:weeping_vines",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:wet_sponge",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:wheat",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:white_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:white_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:white_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:white_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:white_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:white_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:white_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:white_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:white_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:white_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:white_tulip",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:white_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:wildflowers",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:wither_rose",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:wither_skeleton_skull",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:wooden_button",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:wooden_door",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:wooden_pressure_plate",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:yellow_candle",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "candles": 0,
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 1,
+            "lit": true
+          },
+          "emission": 6,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 2,
+            "lit": true
+          },
+          "emission": 9,
+          "filter": 0
+        },
+        {
+          "states": {
+            "candles": 3,
+            "lit": true
+          },
+          "emission": 12,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:yellow_candle_cake",
+      "emission": 0,
+      "filter": 0,
+      "overrides": [
+        {
+          "states": {
+            "lit": true
+          },
+          "emission": 3,
+          "filter": 0
+        }
+      ]
+    },
+    {
+      "name": "minecraft:yellow_carpet",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:yellow_concrete",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:yellow_concrete_powder",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:yellow_glazed_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:yellow_poplar_leaves",
+      "emission": 0,
+      "filter": 1
+    },
+    {
+      "name": "minecraft:yellow_shulker_box",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:yellow_stained_glass",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:yellow_stained_glass_pane",
+      "emission": 0,
+      "filter": 0
+    },
+    {
+      "name": "minecraft:yellow_terracotta",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:yellow_wool",
+      "emission": 0,
+      "filter": 15
+    },
+    {
+      "name": "minecraft:zombie_head",
+      "emission": 0,
+      "filter": 0
+    }
+  ]
+}

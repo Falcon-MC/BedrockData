@@ -94,6 +94,98 @@
       "pending": []
     },
     {
+      "protocol": 2169,
+      "minecraftVersion": "1.26.45",
+      "files": [
+        {
+          "name": "biome_definitions.nbt",
+          "format": "gzip, big-endian NBT",
+          "sha256": "aa5f8a37b8c8b2e207771e25d8523e68cd7f44239009971c607902cf41b5db6e"
+        },
+        {
+          "name": "block_definitions.nbt",
+          "format": "gzip, big-endian NBT",
+          "sha256": "e03e5b11b89541642919537b9f8c6e73b541423c91296ca36547046d6791fbc0"
+        },
+        {
+          "name": "block_light.json",
+          "format": "JSON",
+          "sha256": "df50af922f183238fb6616d268eeec775df0ed677e3d2161d2d32308f7ac670a"
+        },
+        {
+          "name": "block_palette.nbt",
+          "format": "gzip, big-endian NBT",
+          "sha256": "bf9ea05b538d2afe7a174e1fb728971f8eab5fec02b55a41b0a51d9fec0bc46d"
+        },
+        {
+          "name": "command_translations.json",
+          "format": "JSON",
+          "sha256": "c89902038d1166650c1b7bba10d56d87a417a428dbafb04fc7aaae9b89c65282"
+        },
+        {
+          "name": "creative_items.json",
+          "format": "JSON",
+          "sha256": "ca7599a3d17987eebda012dae2eb035eae8d9de6617f05fb2947d34dc7cd8f8a"
+        },
+        {
+          "name": "entity_definitions.json",
+          "format": "JSON",
+          "sha256": "f69f03d4acc81b0214dda346828231e296e15c99153037a1da53121ad4ddd7a4"
+        },
+        {
+          "name": "entity_despawn.json",
+          "format": "JSON",
+          "sha256": "30e7111ebcede3dec03c77179581776a565574806854d6b3e2f027ae4bc7a5b6"
+        },
+        {
+          "name": "entity_loot_tables.json",
+          "format": "JSON, entity identifier to loot table path",
+          "sha256": "61f4a94aacf1e30c6a823441901e76057904f6671f8301d513d98e5b3a705c39"
+        },
+        {
+          "name": "item_components.nbt",
+          "format": "gzip, big-endian NBT",
+          "sha256": "61390778de8a7b820d6bbe12ae3c10ba4209d5835f4af93a8bd1c9a5882fda03"
+        },
+        {
+          "name": "item_palette.json",
+          "format": "JSON",
+          "sha256": "36a0899d5d00a7cf51c828792149743fcf9ff36444fa36476a835ed3b5833942"
+        },
+        {
+          "name": "item_tags.json",
+          "format": "JSON",
+          "sha256": "4eea815c988499291ef48ec8a3dd979bfd8dbefb1050c566b8b3afcbe1bae0a0"
+        },
+        {
+          "name": "loot_tables.json",
+          "format": "JSON, keyed by loot table path",
+          "sha256": "4ff6832ec46887c73583bc3ccf42ec4f294984492e252ad977af0f88b9caba27"
+        },
+        {
+          "name": "r16_to_current_item_map.json",
+          "format": "JSON with simple renames and complex name + meta mappings",
+          "sha256": "b5d7b41435571615d4036e666474eb67605a7eb1d8e94b648fb10faaa53aebe2"
+        },
+        {
+          "name": "recipes.json",
+          "format": "JSON",
+          "sha256": "2453a4a6ef22d462289309ded788ad08ad3ae115120bc895b32764162f26fbed"
+        },
+        {
+          "name": "spawn_rules.json",
+          "format": "JSON",
+          "sha256": "e26bf455e08f3688570521ec4b247a1287a0d9de1268c6f844e45f8d0fb35a7c"
+        },
+        {
+          "name": "voxel_shapes.json",
+          "format": "JSON",
+          "sha256": "70e75040943e466ec5692138e7e7ed8b21b7f2ebcd71700a16a790d090cb22b8"
+        }
+      ],
+      "pending": []
+    },
+    {
       "protocol": 2193,
       "minecraftVersion": "1.26.52",
       "files": [
