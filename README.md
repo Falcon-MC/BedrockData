@@ -1,9 +1,32 @@
-# Falcon BedrockData
+<p align="center">
+	<picture>
+		<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Falcon-MC/Falcon/main/.github/logo-white.png">
+		<img src="https://raw.githubusercontent.com/Falcon-MC/Falcon/main/.github/logo.png" alt="Falcon" width="200">
+	</picture>
+	<br>
+	<b>Falcon BedrockData</b>
+	<br>
+	Minecraft: Bedrock Edition game data files, versioned by protocol
+</p>
 
-Game data files used by the Falcon Minecraft: Bedrock Edition server, versioned by network protocol.
+<p align="center">
+	<img src="https://img.shields.io/badge/minecraft-v1.26.60%20(Bedrock)-56383E" alt="Minecraft">
+	<img src="https://img.shields.io/badge/protocol-2225-blue" alt="Protocol">
+</p>
 
-A protocol bump (for example 2168 to 2193) becomes a data update in this single repository: add a
+## What is this?
+
+The game data the [Falcon](https://github.com/Falcon-MC/Falcon) server needs and cannot compute itself: block
+and item palettes, recipes, creative inventory, loot tables, biomes, spawn rules and more. Every file is
+generated from the official dedicated server, one directory per network protocol.
+
+A protocol bump (for example 2193 to 2225) becomes a data update in this single repository: add a
 new `data/<protocol>/` directory, register it in `versions.json`, and every consumer picks it up.
+
+- **Manifest** - `versions.json` lists every protocol with its Minecraft version, files and SHA-256
+- **Verified** - the CMake module refuses a file whose hash does not match the manifest
+- **Embeddable** - CMake functions turn any file into a C++ header
+- **Generated** - new versions are produced automatically from the dedicated server
 
 ## Layout
 
@@ -20,8 +43,8 @@ cmake/                   CMake module that locates, verifies and embeds the file
   "latest": 2225,
   "versions": [
     {
-      "protocol": 2193,
-      "minecraftVersion": "1.26.52",
+      "protocol": 2225,
+      "minecraftVersion": "1.26.60",
       "files": [
         { "name": "biome_definitions.nbt", "format": "gzip, big-endian NBT", "sha256": "..." }
       ],
@@ -40,10 +63,14 @@ Git checkout on Windows, and because the manifest also carries checksums and the
 
 ## Current contents
 
-| Protocol | Minecraft | Files | Pending |
-|----------|-----------|-------|---------|
-| 2193 | 1.26.52 | `biome_definitions.nbt`, `block_definitions.nbt`, `block_light.json`, `block_palette.nbt`, `creative_items.json`, `entity_loot_tables.json`, `item_components.nbt`, `item_palette.json`, `item_tags.json`, `loot_tables.json`, `r16_to_current_item_map.json`, `recipes.json`, `voxel_shapes.json` | none |
-| 2225 | 1.26.60 | `biome_definitions.nbt`, `block_definitions.nbt`, `block_light.json`, `block_palette.nbt`, `creative_items.json`, `entity_loot_tables.json`, `item_components.nbt`, `item_palette.json`, `item_tags.json`, `loot_tables.json`, `r16_to_current_item_map.json`, `recipes.json`, `voxel_shapes.json` | none |
+| Protocol | Minecraft |
+|----------|-----------|
+| 2225     | 1.26.60   |
+| 2193     | 1.26.52   |
+| 2169     | 1.26.45   |
+| 2168     | 1.26.43   |
+
+Every protocol ships the 17 files described below, none pending.
 
 ## File formats
 
@@ -53,13 +80,18 @@ Git checkout on Windows, and because the manifest also carries checksums and the
 | `block_definitions.nbt` | gzip-compressed big-endian NBT, root compound with a `blocks` list; each entry has `name` (string) and `properties` (compound), the data-driven block definitions sent in the start game block palette, CC0 |
 | `block_light.json` | JSON object with a `blocks` array; each entry has `name`, the most common `emission` and `filter` (0 to 15) of its states, and an optional `overrides` array of `{ states, emission, filter }` for the states that differ |
 | `block_palette.nbt` | gzip-compressed big-endian NBT, root compound with a `blocks` list; each entry has `network_id` (int), `name_hash` (long), `name` (string), `version` (int), `states` (compound) |
-| `item_palette.json` | JSON object with an `items` array; each entry has `name` (string), `id` (network id), `version` (int), `component_based` (bool), as sent in the item registry packet, CC0 |
+| `command_translations.json` | JSON object `locale -> { translation key -> text }` with the `commands.*` strings of every language of the vanilla resource pack |
+| `creative_items.json` | JSON object with `groups` (`creative_category`, `name`, `icon`) and `items` (`id`, `block_state_b64`, `group_index`), as sent in the creative content packet |
+| `entity_definitions.json` | JSON object `entity identifier -> { description, components, component_groups, events }` from the vanilla behavior packs, versioned packs applied in version order |
+| `entity_despawn.json` | JSON object `entity identifier -> minecraft:despawn component` |
+| `entity_loot_tables.json` | JSON object `entity identifier -> loot table path` from each entity's default `minecraft:loot` component, versioned behavior packs applied in version order |
 | `item_components.nbt` | gzip-compressed big-endian NBT, root compound `item identifier -> { components }` for component-based items, CC0 |
+| `item_palette.json` | JSON object with an `items` array; each entry has `name` (string), `id` (network id), `version` (int), `component_based` (bool), as sent in the item registry packet, CC0 |
 | `item_tags.json` | JSON object `tag -> [item identifiers]`, keys and lists sorted, two-space indentation, trailing newline |
 | `loot_tables.json` | JSON object `loot table path -> loot table`, paths relative to the vanilla behavior pack `loot_tables` folder (for example `chests/spawn_bonus_chest.json`), versioned behavior packs applied over the base pack in version order, tables unchanged |
-| `entity_loot_tables.json` | JSON object `entity identifier -> loot table path` from each entity's default `minecraft:loot` component, versioned behavior packs applied in version order |
 | `r16_to_current_item_map.json` | JSON object with `simple` (`old identifier -> identifier`) and `complex` (`old identifier -> { meta -> identifier }`) for pre 1.16 item names and data values, CC0 |
 | `recipes.json` | JSON object with `version` and a `recipes` array as sent in the crafting data packet |
+| `spawn_rules.json` | JSON object `entity identifier -> { population_control, conditions }` from the vanilla spawn rules |
 | `voxel_shapes.json` | JSON array of `{ "identifier": string, "boxes": [[[minX, minY, minZ], [maxX, maxY, maxZ]], ...] }` in 1/16 block units |
 
 ## Adding a protocol version
@@ -114,6 +146,20 @@ target_include_directories(MyTarget PRIVATE "${GENERATED_DIR}")
 
 Each file used through these functions is added to `CMAKE_CONFIGURE_DEPENDS`, so editing a data file
 re-runs the configure step.
+
+## Generating
+
+The files are produced by Falcon DataGen, which downloads the dedicated server, joins it with a headless client
+and dumps the registries. The [Generate data](.github/workflows/generate.yml) workflow runs it every three hours
+for the stable and preview channels and opens a draft pull request when a new server version is out.
+
+## Related repositories
+
+- [Falcon](https://github.com/Falcon-MC/Falcon) - the server
+- [Protocol](https://github.com/Falcon-MC/Protocol) - packets and network types
+- [Network](https://github.com/Falcon-MC/Network) - RakNet and NetherNet transport
+- [NBT](https://github.com/Falcon-MC/NBT) - NBT tags and binary streams
+- [BlockStateUpdater](https://github.com/Falcon-MC/BlockStateUpdater) - block state upgrade schemas
 
 ## Licensing information
 
