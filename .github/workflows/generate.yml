@@ -1,0 +1,102 @@
+name: Generate data
+
+# Runs here rather than in the private DataGen repository because Actions minutes are free on public
+# repositories. DataGen is checked out and built with the automation app token, so its source stays private.
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: Bedrock Dedicated Server channel to generate from
+        type: choice
+        options: [stable, preview]
+        default: stable
+      dry_run:
+        description: Generate without pushing anything
+        type: boolean
+        default: false
+      force:
+        description: Regenerate and update the branch even if it already exists
+        type: boolean
+        default: false
+      version:
+        description: Exact older server build to generate from, such as 1.26.45.1, left empty for the latest
+        type: string
+        default: ''
+      protocol:
+        description: Protocol the older server build speaks, required with a version
+        type: string
+        default: ''
+
+concurrency:
+  group: generate-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        channel: ${{ github.event_name == 'workflow_dispatch' && fromJSON(format('["{0}"]', inputs.channel)) || fromJSON('["stable", "preview"]') }}
+
+    steps:
+      - name: Create the bot token
+        id: token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.AUTOMATION_APP_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          owner: Falcon-MC
+          repositories: DataGen,BedrockData
+
+      - uses: actions/checkout@v4
+        with:
+          repository: Falcon-MC/DataGen
+          token: ${{ steps.token.outputs.token }}
+          path: datagen
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake ninja-build g++ zlib1g-dev libssl-dev unzip curl
+
+      - name: Build DataGen
+        working-directory: datagen
+        run: |
+          cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
+          cmake --build build --target FalconDataGen FalconDataPublish
+
+      - name: Resolve the bot identity
+        id: bot
+        env:
+          GH_TOKEN: ${{ steps.token.outputs.token }}
+          APP_SLUG: ${{ steps.token.outputs.app-slug }}
+        run: |
+          USER_ID="$(gh api "/users/${APP_SLUG}%5Bbot%5D" --jq .id)"
+          echo "name=${APP_SLUG}[bot]" >> "$GITHUB_OUTPUT"
+          echo "email=${USER_ID}+${APP_SLUG}[bot]@users.noreply.github.com" >> "$GITHUB_OUTPUT"
+
+      - name: Publish
+        working-directory: datagen
+        env:
+          GITHUB_TOKEN: ${{ steps.token.outputs.token }}
+          DATAGEN_TARGET_REPOSITORY: Falcon-MC/BedrockData
+          DATAGEN_BOT_NAME: ${{ steps.bot.outputs.name }}
+          DATAGEN_BOT_EMAIL: ${{ steps.bot.outputs.email }}
+          FALCON_DATAGEN_ROOT: ${{ github.workspace }}/datagen
+        run: ./build/FalconDataPublish --channel=${{ matrix.channel }} ${{ inputs.dry_run && '--dry-run' || '' }} ${{ inputs.force && '--force' || '' }} ${{ inputs.version && format('--version={0}', inputs.version) || '' }} ${{ inputs.protocol && format('--protocol={0}', inputs.protocol) || '' }}
+
+      - name: Upload the generated data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-${{ matrix.channel }}
+          path: datagen/generated/
+          if-no-files-found: ignore
