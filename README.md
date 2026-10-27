@@ -17,7 +17,7 @@ cmake/                   CMake module that locates, verifies and embeds the file
 
 ```json
 {
-  "latest": 2193,
+  "latest": 2225,
   "versions": [
     {
       "protocol": 2193,
@@ -43,6 +43,7 @@ Git checkout on Windows, and because the manifest also carries checksums and the
 | Protocol | Minecraft | Files | Pending |
 |----------|-----------|-------|---------|
 | 2193 | 1.26.52 | `biome_definitions.nbt`, `block_definitions.nbt`, `block_light.json`, `block_palette.nbt`, `creative_items.json`, `entity_loot_tables.json`, `item_components.nbt`, `item_palette.json`, `item_tags.json`, `loot_tables.json`, `r16_to_current_item_map.json`, `recipes.json`, `voxel_shapes.json` | none |
+| 2225 | 1.26.60 | `biome_definitions.nbt`, `block_definitions.nbt`, `block_light.json`, `block_palette.nbt`, `creative_items.json`, `entity_loot_tables.json`, `item_components.nbt`, `item_palette.json`, `item_tags.json`, `loot_tables.json`, `r16_to_current_item_map.json`, `recipes.json`, `voxel_shapes.json` | none |
 
 ## File formats
 
