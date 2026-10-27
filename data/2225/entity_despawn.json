@@ -1,0 +1,341 @@
+{
+  "minecraft:armadillo": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:axolotl": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:bat": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:blaze": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:bogged": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:camel": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:camel_husk": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:cat": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:cave_spider": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:chicken": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:cod": {
+    "despawn_from_distance": {
+      "max_distance": 40,
+      "min_distance": 32
+    }
+  },
+  "minecraft:cow": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:creaking": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:creeper": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:dolphin": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:donkey": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:drowned": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:enderman": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:endermite": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:fox": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:frog": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:ghast": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:glow_squid": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:goat": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:guardian": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:happy_ghast": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:hoglin": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:horse": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:husk": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:llama": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:magma_cube": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:mooshroom": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:mule": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:nautilus": {
+    "despawn_from_distance": {
+      "min_distance": 32,
+      "max_distance": 40
+    }
+  },
+  "minecraft:ocelot": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:panda": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:parched": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:parrot": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:phantom": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:pig": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:piglin": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:piglin_brute": {
+    "filters": {
+      "any_of": [
+        {
+          "all_of": [
+            {
+              "test": "is_persistent",
+              "value": false
+            },
+            {
+              "operator": ">",
+              "test": "distance_to_nearest_player",
+              "value": 54
+            }
+          ]
+        },
+        {
+          "all_of": [
+            {
+              "test": "is_persistent",
+              "value": false
+            },
+            {
+              "subject": "self",
+              "test": "inactivity_timer",
+              "value": 30
+            },
+            {
+              "test": "random_chance",
+              "value": 800
+            },
+            {
+              "operator": ">",
+              "test": "distance_to_nearest_player",
+              "value": 32
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "minecraft:pillager": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:polar_bear": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:pufferfish": {
+    "despawn_from_distance": {
+      "max_distance": 40,
+      "min_distance": 32
+    }
+  },
+  "minecraft:rabbit": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:ravager": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:salmon": {
+    "despawn_from_distance": {
+      "max_distance": 40,
+      "min_distance": 32
+    }
+  },
+  "minecraft:sheep": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:silverfish": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:skeleton": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:skeleton_horse": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:slime": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:spider": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:squid": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:stray": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:strider": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:sulfur_cube": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:tadpole": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:trader_llama": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:tropicalfish": {
+    "despawn_from_distance": {
+      "max_distance": 40,
+      "min_distance": 32
+    }
+  },
+  "minecraft:turtle": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:vex": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:wandering_trader": {
+    "filters": {
+      "all_of": [
+        {
+          "any_of": [
+            {
+              "subject": "self",
+              "test": "is_family",
+              "value": "wandering_trader_despawning"
+            },
+            {
+              "subject": "self",
+              "test": "has_trade_supply",
+              "value": false
+            }
+          ]
+        },
+        {
+          "operator": ">",
+          "test": "distance_to_nearest_player",
+          "value": 24
+        }
+      ]
+    },
+    "remove_child_entities": true
+  },
+  "minecraft:witch": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:wither_skeleton": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:wolf": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:zoglin": {
+    "filters": {
+      "any_of": [
+        {
+          "all_of": [
+            {
+              "test": "is_persistent",
+              "value": false
+            },
+            {
+              "operator": ">",
+              "test": "distance_to_nearest_player",
+              "value": 54
+            }
+          ]
+        },
+        {
+          "all_of": [
+            {
+              "test": "is_persistent",
+              "value": false
+            },
+            {
+              "subject": "self",
+              "test": "inactivity_timer",
+              "value": 30
+            },
+            {
+              "test": "random_chance",
+              "value": 800
+            },
+            {
+              "operator": ">",
+              "test": "distance_to_nearest_player",
+              "value": 32
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "minecraft:zombie": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:zombie_horse": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:zombie_nautilus": {
+    "despawn_from_distance": {
+      "max_distance": 40,
+      "min_distance": 32
+    }
+  },
+  "minecraft:zombie_pigman": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:zombie_villager": {
+    "despawn_from_distance": {}
+  },
+  "minecraft:zombie_villager_v2": {
+    "despawn_from_distance": {}
+  }
+}
