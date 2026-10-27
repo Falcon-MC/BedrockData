@@ -1,7 +1,7 @@
 <p align="center">
 	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Falcon-MC/Falcon/main/.github/logo-white.png">
-		<img src="https://raw.githubusercontent.com/Falcon-MC/Falcon/main/.github/logo.png" alt="Falcon" width="200">
+		<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Falcon-MC/.github/main/profile/logo-white.png">
+		<img src="https://raw.githubusercontent.com/Falcon-MC/.github/main/profile/logo.png" alt="Falcon" width="200">
 	</picture>
 	<br>
 	<b>Falcon BedrockData</b>
