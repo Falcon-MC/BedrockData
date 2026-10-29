@@ -279,7 +279,7 @@
     },
     {
       "protocol": 2225,
-      "minecraftVersion": "1.26.60",
+      "minecraftVersion": "1.26.61",
       "files": [
         {
           "name": "biome_definitions.nbt",
@@ -294,7 +294,7 @@
         {
           "name": "block_light.json",
           "format": "JSON",
-          "sha256": "0bbe7694888801684e930c0cde32f05d891a4f24fa8b1925ff005b451222a3d3"
+          "sha256": "df3ac76f7b412fe6d899f80af16a585699a6d3ff5362c4d31766fe8a46b77935"
         },
         {
           "name": "block_palette.nbt",
@@ -354,7 +354,7 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "070bad23ecb97332984c5044e6bbec0544ba44cf9ac787c7a9e2d3f22d477fc3"
+          "sha256": "11eaad4fecc0f4af33e1b3594396c182e7982be92655f4e6be0dde20646ffaaf"
         },
         {
           "name": "spawn_rules.json",
