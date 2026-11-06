@@ -365,6 +365,11 @@
           "name": "voxel_shapes.json",
           "format": "JSON",
           "sha256": "70e75040943e466ec5692138e7e7ed8b21b7f2ebcd71700a16a790d090cb22b8"
+        },
+        {
+          "name": "structures.pack",
+          "format": "little-endian archive of gzip NBT and mcstructure templates",
+          "sha256": "b8260c6f7c533b917014240324441c558333984dd6b447f79d3a7f9ac0e14848"
         }
       ],
       "pending": []
