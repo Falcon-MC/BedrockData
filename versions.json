@@ -279,7 +279,7 @@
     },
     {
       "protocol": 2225,
-      "minecraftVersion": "1.26.60",
+      "minecraftVersion": "1.26.63",
       "files": [
         {
           "name": "biome_definitions.nbt",
@@ -294,7 +294,7 @@
         {
           "name": "block_light.json",
           "format": "JSON",
-          "sha256": "0bbe7694888801684e930c0cde32f05d891a4f24fa8b1925ff005b451222a3d3"
+          "sha256": "f35b645bf528c2f36eafd3c0267eec677ce4609ae278b6b15748f47f7e524056"
         },
         {
           "name": "block_palette.nbt",
@@ -354,7 +354,7 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "070bad23ecb97332984c5044e6bbec0544ba44cf9ac787c7a9e2d3f22d477fc3"
+          "sha256": "596b8e67df3a1f621a54ec014f2e2f9aa755f064de67caafff458734294c3a6d"
         },
         {
           "name": "spawn_rules.json",
@@ -362,14 +362,14 @@
           "sha256": "32632504f4ce65c990d754ac61cbb86b1ed03a362a18c6c6ac5a6bbc8c810b5c"
         },
         {
-          "name": "voxel_shapes.json",
-          "format": "JSON",
-          "sha256": "70e75040943e466ec5692138e7e7ed8b21b7f2ebcd71700a16a790d090cb22b8"
-        },
-        {
           "name": "structures.pack",
           "format": "little-endian archive of gzip NBT and mcstructure templates",
           "sha256": "b8260c6f7c533b917014240324441c558333984dd6b447f79d3a7f9ac0e14848"
+        },
+        {
+          "name": "voxel_shapes.json",
+          "format": "JSON",
+          "sha256": "70e75040943e466ec5692138e7e7ed8b21b7f2ebcd71700a16a790d090cb22b8"
         }
       ],
       "pending": []
