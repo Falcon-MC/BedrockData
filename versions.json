@@ -307,9 +307,19 @@
           "sha256": "c013d9be04ed909539255722107ad80c88e4eb603522d42398737315ce271ecd"
         },
         {
+          "name": "block_tags.json",
+          "format": "JSON",
+          "sha256": "6ce01de780e059d4dfee7a5e941be7c88b8f4917df9a139c94c610dfa8161406"
+        },
+        {
+          "name": "command_hidden_blocks.json",
+          "format": "JSON",
+          "sha256": "f40423f6d287cd5c08e1f93b7b11383aa18bc23ec3f60b629d3a9a1159afebd0"
+        },
+        {
           "name": "command_hidden_items.json",
           "format": "JSON",
-          "sha256": "3498ba0ca5f63346e668069838a923c594af71106d6e5eea37a7f63f7b925da0"
+          "sha256": "1bba285d477dadea45d0dac6ec47d5f16927055268eefab50af7f446e9e0c538"
         },
         {
           "name": "command_translations.json",
@@ -320,6 +330,11 @@
           "name": "creative_items.json",
           "format": "JSON",
           "sha256": "17f976cee1660cfec8acfed0bceeaab84dc3777b7658f683028c6de162fbd5ff"
+        },
+        {
+          "name": "enchantments.json",
+          "format": "JSON",
+          "sha256": "2c82bc0a197422f85d3130b62dbc3a68203af6c370b62dd4428e1ac599ccff6f"
         },
         {
           "name": "entity_definitions.json",
@@ -345,6 +360,11 @@
           "name": "item_palette.json",
           "format": "JSON",
           "sha256": "09094831d6469da967770d023c7a8c1a73671c8f4a71592fad7afd5608cb71a7"
+        },
+        {
+          "name": "item_properties.json",
+          "format": "JSON",
+          "sha256": "2df66b3e838955f3c8d130dcd7f6c931457b3a5871ffcf946d5365255750bb01"
         },
         {
           "name": "item_tags.json",
