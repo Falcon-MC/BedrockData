@@ -77,10 +77,12 @@ Every protocol ships the 17 files described below, none pending.
 | File | Format |
 |------|--------|
 | `biome_definitions.nbt` | gzip-compressed big-endian NBT, root compound with `biomeStringList` and per-biome definitions including `chunkGenData` |
+| `block_collision_shapes.json` | JSON object with a `shapes` array of distinct collision shapes, each a list of `[minX, minY, minZ, maxX, maxY, maxZ]` boxes in block-local coordinates (empty for no collision), and a `states` object mapping each block state hash (the palette's network hash, as a string) to its shape index |
 | `block_definitions.nbt` | gzip-compressed big-endian NBT, root compound with a `blocks` list; each entry has `name` (string) and `properties` (compound), the data-driven block definitions sent in the start game block palette, CC0 |
 | `block_light.json` | JSON object with a `blocks` array; each entry has `name`, the most common `emission` and `filter` (0 to 15) of its states, and an optional `overrides` array of `{ states, emission, filter }` for the states that differ |
 | `block_palette.nbt` | gzip-compressed big-endian NBT, root compound with a `blocks` list; each entry has `network_id` (int), `name_hash` (long), `name` (string), `version` (int), `states` (compound) |
 | `command_translations.json` | JSON object `locale -> { translation key -> text }` with the `commands.*` strings of every language of the vanilla resource pack |
+| `command_hidden_items.json` | JSON object with an `items` array: the item names the Item command enum leaves out, so `/give` and other item commands do not parse them |
 | `creative_items.json` | JSON object with `groups` (`creative_category`, `name`, `icon`) and `items` (`id`, `block_state_b64`, `group_index`), as sent in the creative content packet |
 | `entity_definitions.json` | JSON object `entity identifier -> { description, components, component_groups, events }` from the vanilla behavior packs, versioned packs applied in version order |
 | `entity_despawn.json` | JSON object `entity identifier -> minecraft:despawn component` |

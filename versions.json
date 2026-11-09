@@ -287,6 +287,11 @@
           "sha256": "0cdd174edd3e99c12285bea402b19b6750246d3d9bb5041ab517ad1afa4d4689"
         },
         {
+          "name": "block_collision_shapes.json",
+          "format": "JSON",
+          "sha256": "06478946b70dc5da1aa26f8097e3ab4103a356cb8dfa3bcfc9bb75403ee4ac54"
+        },
+        {
           "name": "block_definitions.nbt",
           "format": "gzip, big-endian NBT",
           "sha256": "53e4bc50d13eb99c75d1022c371965232d243c091f42223981ea4175f50b9dc3"
@@ -300,6 +305,11 @@
           "name": "block_palette.nbt",
           "format": "gzip, big-endian NBT",
           "sha256": "c013d9be04ed909539255722107ad80c88e4eb603522d42398737315ce271ecd"
+        },
+        {
+          "name": "command_hidden_items.json",
+          "format": "JSON",
+          "sha256": "3498ba0ca5f63346e668069838a923c594af71106d6e5eea37a7f63f7b925da0"
         },
         {
           "name": "command_translations.json",
