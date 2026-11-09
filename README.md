@@ -77,16 +77,22 @@ Every protocol ships the 17 files described below, none pending.
 | File | Format |
 |------|--------|
 | `biome_definitions.nbt` | gzip-compressed big-endian NBT, root compound with `biomeStringList` and per-biome definitions including `chunkGenData` |
+| `block_collision_shapes.json` | JSON object with a `shapes` array of distinct collision shapes, each a list of `[minX, minY, minZ, maxX, maxY, maxZ]` boxes in block-local coordinates (empty for no collision), and a `states` object mapping each block state hash (the palette's network hash, as a string) to its shape index |
 | `block_definitions.nbt` | gzip-compressed big-endian NBT, root compound with a `blocks` list; each entry has `name` (string) and `properties` (compound), the data-driven block definitions sent in the start game block palette, CC0 |
 | `block_light.json` | JSON object with a `blocks` array; each entry has `name`, the most common `emission` and `filter` (0 to 15) of its states, and an optional `overrides` array of `{ states, emission, filter }` for the states that differ |
 | `block_palette.nbt` | gzip-compressed big-endian NBT, root compound with a `blocks` list; each entry has `network_id` (int), `name_hash` (long), `name` (string), `version` (int), `states` (compound) |
+| `block_tags.json` | JSON object: `tags` maps each block tag to the blocks whose every state has it; `states` lists, by network id, the tags of the states of a block whose states differ |
+| `command_hidden_blocks.json` | JSON object with a `blocks` array: the block names the Block command enum leaves out, so `/setblock`, `/fill` and `/testforblock` do not parse them |
+| `command_hidden_items.json` | JSON object with an `items` array: the item names the Item command enum leaves out, so `/give` and other item commands do not parse them |
 | `command_translations.json` | JSON object `locale -> { translation key -> text }` with the `commands.*` strings of every language of the vanilla resource pack |
 | `creative_items.json` | JSON object with `groups` (`creative_category`, `name`, `icon`) and `items` (`id`, `block_state_b64`, `group_index`), as sent in the creative content packet |
+| `enchantments.json` | JSON object with an `enchantments` array; each entry has `id`, `max_level`, `items` (the items that take it) and `excludes` (the enchantments it cannot share an item with) |
 | `entity_definitions.json` | JSON object `entity identifier -> { description, components, component_groups, events }` from the vanilla behavior packs, versioned packs applied in version order |
 | `entity_despawn.json` | JSON object `entity identifier -> minecraft:despawn component` |
 | `entity_loot_tables.json` | JSON object `entity identifier -> loot table path` from each entity's default `minecraft:loot` component, versioned behavior packs applied in version order |
 | `item_components.nbt` | gzip-compressed big-endian NBT, root compound `item identifier -> { components }` for component-based items, CC0 |
 | `item_palette.json` | JSON object with an `items` array; each entry has `name` (string), `id` (network id), `version` (int), `component_based` (bool), as sent in the item registry packet, CC0 |
+| `item_properties.json` | JSON object with an `items` array; each entry has `id`, `max_stack_size` and, when the item has them, `max_durability`, `food` (`nutrition`, `saturation_modifier`, `can_always_eat`, `using_converts_to`) and `cooldown` (`category`, `ticks`) |
 | `item_tags.json` | JSON object `tag -> [item identifiers]`, keys and lists sorted, two-space indentation, trailing newline |
 | `loot_tables.json` | JSON object `loot table path -> loot table`, paths relative to the vanilla behavior pack `loot_tables` folder (for example `chests/spawn_bonus_chest.json`), versioned behavior packs applied over the base pack in version order, tables unchanged |
 | `r16_to_current_item_map.json` | JSON object with `simple` (`old identifier -> identifier`) and `complex` (`old identifier -> { meta -> identifier }`) for pre 1.16 item names and data values, CC0 |
