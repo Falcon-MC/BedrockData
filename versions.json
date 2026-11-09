@@ -309,7 +309,7 @@
         {
           "name": "block_tags.json",
           "format": "JSON",
-          "sha256": "6ce01de780e059d4dfee7a5e941be7c88b8f4917df9a139c94c610dfa8161406"
+          "sha256": "0db9e0d09f89b8876eeec4e8a5ccfb9d5053d628bef8313017b66cf1a0728260"
         },
         {
           "name": "command_hidden_blocks.json",
