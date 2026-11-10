@@ -69,8 +69,28 @@ jobs:
 
       - name: Build DataGen
         working-directory: datagen
+        env:
+          CHANNEL: ${{ matrix.channel }}
         run: |
-          cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
+          # a preview speaks the protocol of the next version: its codec, and the network library matching it, live
+          # on the branches named after that version
+          PROTOCOL_TAG=main
+          NETWORK_TAG=main
+          if [ "$CHANNEL" = preview ]; then
+            VERSION="$(curl -fsS https://net-secondary.web.minecraft-services.net/api/v1.0/download/links \
+              | jq -r '.result.links[] | select(.downloadType == "serverBedrockPreviewLinux") | .downloadUrl' \
+              | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1)"
+            BRANCH="$(echo "$VERSION" | cut -d. -f2,3)"
+            if [ -n "$BRANCH" ] && git ls-remote --exit-code --heads https://github.com/Falcon-MC/Protocol.git "$BRANCH" > /dev/null; then
+              PROTOCOL_TAG="$BRANCH"
+            fi
+            if [ -n "$BRANCH" ] && git ls-remote --exit-code --heads https://github.com/Falcon-MC/Network.git "$BRANCH" > /dev/null; then
+              NETWORK_TAG="$BRANCH"
+            fi
+          fi
+          echo "Building against protocol $PROTOCOL_TAG and network $NETWORK_TAG"
+          cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DFALCON_PROTOCOL_TAG="$PROTOCOL_TAG" \
+            -DFALCON_NETWORK_TAG="$NETWORK_TAG"
           cmake --build build --target FalconDataGen FalconDataPublish
 
       - name: Resolve the bot identity
