@@ -282,6 +282,11 @@
       "minecraftVersion": "1.26.63",
       "files": [
         {
+          "name": "aim_assist.json",
+          "format": "JSON",
+          "sha256": "54174ee4e6f9a60d02a30e4afec288da52d2085abbdcffc00f024d81229fb02d"
+        },
+        {
           "name": "biome_definitions.nbt",
           "format": "gzip, big-endian NBT",
           "sha256": "0cdd174edd3e99c12285bea402b19b6750246d3d9bb5041ab517ad1afa4d4689"

@@ -1,0 +1,84 @@
+{
+  "presets": [
+    {
+      "identifier": "minecraft:aim_assist_default",
+      "item_settings": {
+        "minecraft:bucket": "minecraft:bucket"
+      },
+      "default_item_settings": "minecraft:default",
+      "hand_settings": "minecraft:empty_hand",
+      "exclusion_settings": {
+        "blocks": [
+          "minecraft:bedrock"
+        ],
+        "entities": [
+          "minecraft:arrow"
+        ]
+      },
+      "liquid_targeting_list": [
+        "minecraft:bucket",
+        "minecraft:oak_boat",
+        "minecraft:birch_boat",
+        "minecraft:spruce_boat",
+        "minecraft:jungle_boat",
+        "minecraft:acacia_boat",
+        "minecraft:dark_oak_boat",
+        "minecraft:mangrove_boat",
+        "minecraft:cherry_boat",
+        "minecraft:bamboo_raft",
+        "minecraft:oak_chest_boat",
+        "minecraft:birch_chest_boat",
+        "minecraft:spruce_chest_boat",
+        "minecraft:jungle_chest_boat",
+        "minecraft:acacia_chest_boat",
+        "minecraft:dark_oak_chest_boat",
+        "minecraft:mangrove_chest_boat",
+        "minecraft:cherry_chest_boat",
+        "minecraft:bamboo_chest_raft"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "minecraft:bucket",
+      "priorities": {
+        "entity_default": 30,
+        "block_default": 30,
+        "blocks": {
+          "minecraft:cauldron": 60,
+          "minecraft:water": 60,
+          "minecraft:lava": 60
+        }
+      }
+    },
+    {
+      "name": "minecraft:empty_hand",
+      "priorities": {
+        "entity_default": 30,
+        "block_default": 30,
+        "blocks": {
+          "minecraft:oak_log": 60,
+          "minecraft:birch_log": 60,
+          "minecraft:spruce_log": 60,
+          "minecraft:jungle_log": 60,
+          "minecraft:acacia_log": 60,
+          "minecraft:dark_oak_log": 60,
+          "minecraft:mangrove_log": 60,
+          "minecraft:cherry_log": 60
+        }
+      }
+    },
+    {
+      "name": "minecraft:default",
+      "priorities": {
+        "blocks": {
+          "minecraft:lever": 60,
+          "minecraft:oak_button": 60,
+          "minecraft:birch_button": 60,
+          "minecraft:spruce_button": 60,
+          "minecraft:dark_oak_button": 60
+        }
+      }
+    }
+  ]
+}
