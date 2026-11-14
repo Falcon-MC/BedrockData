@@ -56,7 +56,7 @@ jobs:
           owner: Falcon-MC
           repositories: DataGen,BedrockData
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           repository: Falcon-MC/DataGen
           token: ${{ steps.token.outputs.token }}
