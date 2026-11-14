@@ -312,6 +312,11 @@
           "sha256": "c013d9be04ed909539255722107ad80c88e4eb603522d42398737315ce271ecd"
         },
         {
+          "name": "block_solid.json",
+          "format": "JSON",
+          "sha256": "40abebe09feaf959bcfe32126e917f7d9cc7e6c9d87af68ebd07ca2cfd18fffe"
+        },
+        {
           "name": "block_tags.json",
           "format": "JSON",
           "sha256": "0db9e0d09f89b8876eeec4e8a5ccfb9d5053d628bef8313017b66cf1a0728260"
