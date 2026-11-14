@@ -115,7 +115,7 @@ jobs:
 
       - name: Upload the generated data
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: generated-${{ matrix.channel }}
           path: datagen/generated/
