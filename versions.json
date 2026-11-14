@@ -294,7 +294,7 @@
         {
           "name": "block_collision_shapes.json",
           "format": "JSON",
-          "sha256": "06478946b70dc5da1aa26f8097e3ab4103a356cb8dfa3bcfc9bb75403ee4ac54"
+          "sha256": "154268011389ec1eebcfe84e1f2f3697311398395ad0ac9ee5e0b7e8c2baeba3"
         },
         {
           "name": "block_definitions.nbt",
@@ -304,12 +304,22 @@
         {
           "name": "block_light.json",
           "format": "JSON",
-          "sha256": "5aac795c3ddb8e101561814c291384ceaf2468484423cc55739e5d561dc7c6de"
+          "sha256": "f000848be860db2a24cc4bafad2bf245ad9ffbc22c2570476ecacdb6b173b42b"
         },
         {
           "name": "block_palette.nbt",
           "format": "gzip, big-endian NBT",
           "sha256": "c013d9be04ed909539255722107ad80c88e4eb603522d42398737315ce271ecd"
+        },
+        {
+          "name": "block_random_offsets.json",
+          "format": "JSON",
+          "sha256": "88a2fc4ca3187ae9b0c6514cb23b3bf02bc79bfd3ecdd9aff2f8f3472408aa22"
+        },
+        {
+          "name": "block_solid.json",
+          "format": "JSON",
+          "sha256": "40abebe09feaf959bcfe32126e917f7d9cc7e6c9d87af68ebd07ca2cfd18fffe"
         },
         {
           "name": "block_tags.json",
@@ -389,7 +399,7 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "3a9ea7be33494f8e232c7b436c3bec34766083c3af4c7d5144eb27be616ce699"
+          "sha256": "b6af2e4322d4fcdc3206586cbc34ecea4c8d176140ad63f5b707d4de3df9e0b2"
         },
         {
           "name": "spawn_rules.json",
