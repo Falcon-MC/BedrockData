@@ -294,7 +294,7 @@
         {
           "name": "block_collision_shapes.json",
           "format": "JSON",
-          "sha256": "06478946b70dc5da1aa26f8097e3ab4103a356cb8dfa3bcfc9bb75403ee4ac54"
+          "sha256": "154268011389ec1eebcfe84e1f2f3697311398395ad0ac9ee5e0b7e8c2baeba3"
         },
         {
           "name": "block_definitions.nbt",
@@ -304,12 +304,17 @@
         {
           "name": "block_light.json",
           "format": "JSON",
-          "sha256": "f35b645bf528c2f36eafd3c0267eec677ce4609ae278b6b15748f47f7e524056"
+          "sha256": "c2d18561f3ee479f416274777551df4c07e513ddc58f6f0a343431fb22259deb"
         },
         {
           "name": "block_palette.nbt",
           "format": "gzip, big-endian NBT",
           "sha256": "c013d9be04ed909539255722107ad80c88e4eb603522d42398737315ce271ecd"
+        },
+        {
+          "name": "block_random_offsets.json",
+          "format": "JSON",
+          "sha256": "88a2fc4ca3187ae9b0c6514cb23b3bf02bc79bfd3ecdd9aff2f8f3472408aa22"
         },
         {
           "name": "block_solid.json",
@@ -324,12 +329,12 @@
         {
           "name": "command_hidden_blocks.json",
           "format": "JSON",
-          "sha256": "f40423f6d287cd5c08e1f93b7b11383aa18bc23ec3f60b629d3a9a1159afebd0"
+          "sha256": "51823b2d568cfeda2cd654e877842c72a7a22054389dfe81dfce5487c0b3e4bb"
         },
         {
           "name": "command_hidden_items.json",
           "format": "JSON",
-          "sha256": "1bba285d477dadea45d0dac6ec47d5f16927055268eefab50af7f446e9e0c538"
+          "sha256": "8c585ece5082c1f739ffe15df0021da31893c269af5f23d7b60f580af0637547"
         },
         {
           "name": "command_translations.json",
@@ -374,7 +379,7 @@
         {
           "name": "item_properties.json",
           "format": "JSON",
-          "sha256": "2df66b3e838955f3c8d130dcd7f6c931457b3a5871ffcf946d5365255750bb01"
+          "sha256": "e6edcfbdcd3a50fb587e49d628ddb808fa51db1f741afd2833103757544b466e"
         },
         {
           "name": "item_tags.json",
@@ -394,7 +399,7 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "596b8e67df3a1f621a54ec014f2e2f9aa755f064de67caafff458734294c3a6d"
+          "sha256": "7a1507b3e238913cab8f7effa15c5515864e0dab3a0d74d1952d8c3287c021a6"
         },
         {
           "name": "spawn_rules.json",
@@ -405,6 +410,11 @@
           "name": "structures.pack",
           "format": "little-endian archive of gzip NBT and mcstructure templates",
           "sha256": "b8260c6f7c533b917014240324441c558333984dd6b447f79d3a7f9ac0e14848"
+        },
+        {
+          "name": "trade_tables.json",
+          "format": "JSON, keyed by trade table path",
+          "sha256": "0ec10c0a5dbcd7eac87f8a86b8c0dceabbc008bbde1db9e700ceb1f6c5a3b1f3"
         },
         {
           "name": "voxel_shapes.json",
