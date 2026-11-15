@@ -40,7 +40,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 180
     strategy:
       fail-fast: false
       matrix:
@@ -49,14 +49,14 @@ jobs:
     steps:
       - name: Create the bot token
         id: token
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v3
         with:
           app-id: ${{ secrets.AUTOMATION_APP_ID }}
           private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
           owner: Falcon-MC
           repositories: DataGen,BedrockData
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           repository: Falcon-MC/DataGen
           token: ${{ steps.token.outputs.token }}
@@ -69,8 +69,28 @@ jobs:
 
       - name: Build DataGen
         working-directory: datagen
+        env:
+          CHANNEL: ${{ matrix.channel }}
         run: |
-          cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
+          # a preview speaks the protocol of the next version: its codec, and the network library matching it, live
+          # on the branches named after that version
+          PROTOCOL_TAG=main
+          NETWORK_TAG=main
+          if [ "$CHANNEL" = preview ]; then
+            VERSION="$(curl -fsS https://net-secondary.web.minecraft-services.net/api/v1.0/download/links \
+              | jq -r '.result.links[] | select(.downloadType == "serverBedrockPreviewLinux") | .downloadUrl' \
+              | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1)"
+            BRANCH="$(echo "$VERSION" | cut -d. -f2,3)"
+            if [ -n "$BRANCH" ] && git ls-remote --exit-code --heads https://github.com/Falcon-MC/Protocol.git "$BRANCH" > /dev/null; then
+              PROTOCOL_TAG="$BRANCH"
+            fi
+            if [ -n "$BRANCH" ] && git ls-remote --exit-code --heads https://github.com/Falcon-MC/Network.git "$BRANCH" > /dev/null; then
+              NETWORK_TAG="$BRANCH"
+            fi
+          fi
+          echo "Building against protocol $PROTOCOL_TAG and network $NETWORK_TAG"
+          cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DFALCON_PROTOCOL_TAG="$PROTOCOL_TAG" \
+            -DFALCON_NETWORK_TAG="$NETWORK_TAG"
           cmake --build build --target FalconDataGen FalconDataPublish
 
       - name: Resolve the bot identity
@@ -95,7 +115,7 @@ jobs:
 
       - name: Upload the generated data
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: generated-${{ matrix.channel }}
           path: datagen/generated/
