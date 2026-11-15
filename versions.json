@@ -304,7 +304,7 @@
         {
           "name": "block_light.json",
           "format": "JSON",
-          "sha256": "87b98715dbbe454b58c2e442d7615a4214f265a884b90ea5294eb4a2f251d546"
+          "sha256": "c2d18561f3ee479f416274777551df4c07e513ddc58f6f0a343431fb22259deb"
         },
         {
           "name": "block_palette.nbt",
@@ -399,7 +399,7 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "04b0854d0f07dc9fd6f8fcf1c2a6b348f57f19581ead1fae7ca989a89d1889f6"
+          "sha256": "7a1507b3e238913cab8f7effa15c5515864e0dab3a0d74d1952d8c3287c021a6"
         },
         {
           "name": "spawn_rules.json",
@@ -414,7 +414,7 @@
         {
           "name": "trade_tables.json",
           "format": "JSON, keyed by trade table path",
-          "sha256": "0073aadc40334e1e5c42b3e363ccfccfb5b916082e875fa1f22f10f051807dc0"
+          "sha256": "0ec10c0a5dbcd7eac87f8a86b8c0dceabbc008bbde1db9e700ceb1f6c5a3b1f3"
         },
         {
           "name": "voxel_shapes.json",
