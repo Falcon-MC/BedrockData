@@ -33,7 +33,18 @@
     {
       "name": "minecraft:acacia_leaves",
       "emission": 0,
-      "filter": 1
+      "filter": 1,
+      "overrides": [
+        {
+          "states": {
+            "new_leaf_type": "acacia",
+            "persistent_bit": false,
+            "update_bit": true
+          },
+          "emission": 0,
+          "filter": 0
+        }
+      ]
     },
     {
       "name": "minecraft:acacia_log",
@@ -3254,30 +3265,6 @@
         },
         {
           "states": {
-            "age": 1,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 3,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
             "age": 0,
             "minecraft:connection_east": true,
             "minecraft:connection_north": false,
@@ -3290,79 +3277,7 @@
         },
         {
           "states": {
-            "age": 1,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 2,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
             "age": 0,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 0,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 2,
             "minecraft:connection_east": true,
             "minecraft:connection_north": true,
             "minecraft:connection_south": false,
@@ -3387,18 +3302,6 @@
         {
           "states": {
             "age": 1,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 2,
             "minecraft:connection_east": false,
             "minecraft:connection_north": false,
             "minecraft:connection_south": true,
@@ -3458,66 +3361,6 @@
         },
         {
           "states": {
-            "age": 1,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 2,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 3,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 0,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
             "age": 0,
             "minecraft:connection_east": false,
             "minecraft:connection_north": false,
@@ -3530,8 +3373,20 @@
         },
         {
           "states": {
+            "age": 0,
+            "minecraft:connection_east": true,
+            "minecraft:connection_north": false,
+            "minecraft:connection_south": false,
+            "minecraft:connection_up": true,
+            "minecraft:connection_west": false
+          },
+          "emission": 15,
+          "filter": 0
+        },
+        {
+          "states": {
             "age": 1,
-            "minecraft:connection_east": false,
+            "minecraft:connection_east": true,
             "minecraft:connection_north": false,
             "minecraft:connection_south": false,
             "minecraft:connection_up": true,
@@ -3543,30 +3398,6 @@
         {
           "states": {
             "age": 2,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 3,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 0,
             "minecraft:connection_east": true,
             "minecraft:connection_north": false,
             "minecraft:connection_south": false,
@@ -3579,54 +3410,6 @@
         {
           "states": {
             "age": 1,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 3,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 0,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 2,
             "minecraft:connection_east": false,
             "minecraft:connection_north": true,
             "minecraft:connection_south": false,
@@ -3674,18 +3457,6 @@
         },
         {
           "states": {
-            "age": 3,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
             "age": 0,
             "minecraft:connection_east": false,
             "minecraft:connection_north": false,
@@ -3701,138 +3472,6 @@
             "age": 1,
             "minecraft:connection_east": false,
             "minecraft:connection_north": false,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 2,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 0,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 2,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 0,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 2,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 3,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 0,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": false
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 2,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
             "minecraft:connection_south": true,
             "minecraft:connection_up": true,
             "minecraft:connection_west": false
@@ -3854,10 +3493,70 @@
         },
         {
           "states": {
+            "age": 0,
+            "minecraft:connection_east": true,
+            "minecraft:connection_north": false,
+            "minecraft:connection_south": false,
+            "minecraft:connection_up": false,
+            "minecraft:connection_west": true
+          },
+          "emission": 15,
+          "filter": 0
+        },
+        {
+          "states": {
+            "age": 1,
+            "minecraft:connection_east": true,
+            "minecraft:connection_north": false,
+            "minecraft:connection_south": false,
+            "minecraft:connection_up": false,
+            "minecraft:connection_west": true
+          },
+          "emission": 15,
+          "filter": 0
+        },
+        {
+          "states": {
+            "age": 0,
+            "minecraft:connection_east": false,
+            "minecraft:connection_north": true,
+            "minecraft:connection_south": false,
+            "minecraft:connection_up": false,
+            "minecraft:connection_west": true
+          },
+          "emission": 15,
+          "filter": 0
+        },
+        {
+          "states": {
+            "age": 1,
+            "minecraft:connection_east": true,
+            "minecraft:connection_north": true,
+            "minecraft:connection_south": false,
+            "minecraft:connection_up": false,
+            "minecraft:connection_west": true
+          },
+          "emission": 15,
+          "filter": 0
+        },
+        {
+          "states": {
+            "age": 0,
+            "minecraft:connection_east": false,
+            "minecraft:connection_north": false,
+            "minecraft:connection_south": true,
+            "minecraft:connection_up": false,
+            "minecraft:connection_west": true
+          },
+          "emission": 15,
+          "filter": 0
+        },
+        {
+          "states": {
             "age": 1,
             "minecraft:connection_east": false,
             "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
+            "minecraft:connection_south": true,
             "minecraft:connection_up": false,
             "minecraft:connection_west": true
           },
@@ -3869,126 +3568,6 @@
             "age": 2,
             "minecraft:connection_east": false,
             "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 0,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 3,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 0,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 0,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 3,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 0,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": false,
             "minecraft:connection_south": true,
             "minecraft:connection_up": false,
             "minecraft:connection_west": true
@@ -4011,30 +3590,6 @@
         {
           "states": {
             "age": 1,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 2,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 3,
             "minecraft:connection_east": true,
             "minecraft:connection_north": false,
             "minecraft:connection_south": true,
@@ -4070,30 +3625,6 @@
         },
         {
           "states": {
-            "age": 2,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 3,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
             "age": 0,
             "minecraft:connection_east": true,
             "minecraft:connection_north": true,
@@ -4106,43 +3637,7 @@
         },
         {
           "states": {
-            "age": 1,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 2,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": false,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
             "age": 0,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
             "minecraft:connection_east": false,
             "minecraft:connection_north": false,
             "minecraft:connection_south": false,
@@ -4178,30 +3673,6 @@
         },
         {
           "states": {
-            "age": 1,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 2,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
             "age": 0,
             "minecraft:connection_east": false,
             "minecraft:connection_north": true,
@@ -4226,31 +3697,7 @@
         },
         {
           "states": {
-            "age": 2,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
             "age": 0,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": false,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
             "minecraft:connection_east": true,
             "minecraft:connection_north": true,
             "minecraft:connection_south": false,
@@ -4264,42 +3711,6 @@
           "states": {
             "age": 0,
             "minecraft:connection_east": false,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 0,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": false,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": true,
             "minecraft:connection_north": false,
             "minecraft:connection_south": true,
             "minecraft:connection_up": true,
@@ -4346,55 +3757,7 @@
         },
         {
           "states": {
-            "age": 2,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 3,
-            "minecraft:connection_east": false,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
             "age": 0,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 1,
-            "minecraft:connection_east": true,
-            "minecraft:connection_north": true,
-            "minecraft:connection_south": true,
-            "minecraft:connection_up": true,
-            "minecraft:connection_west": true
-          },
-          "emission": 15,
-          "filter": 0
-        },
-        {
-          "states": {
-            "age": 3,
             "minecraft:connection_east": true,
             "minecraft:connection_north": true,
             "minecraft:connection_south": true,
@@ -4478,14 +3841,21 @@
     {
       "name": "minecraft:frosted_ice",
       "emission": 0,
-      "filter": 3,
+      "filter": 1,
       "overrides": [
         {
           "states": {
-            "age": 3
+            "age": 0
           },
           "emission": 0,
-          "filter": 1
+          "filter": 3
+        },
+        {
+          "states": {
+            "age": 1
+          },
+          "emission": 0,
+          "filter": 3
         }
       ]
     },
@@ -5243,18 +4613,7 @@
     {
       "name": "minecraft:jungle_leaves",
       "emission": 0,
-      "filter": 1,
-      "overrides": [
-        {
-          "states": {
-            "old_leaf_type": "jungle",
-            "persistent_bit": false,
-            "update_bit": true
-          },
-          "emission": 0,
-          "filter": 0
-        }
-      ]
+      "filter": 1
     },
     {
       "name": "minecraft:jungle_log",
@@ -5896,7 +5255,7 @@
     },
     {
       "name": "minecraft:lit_redstone_ore",
-      "emission": 0,
+      "emission": 9,
       "filter": 15
     },
     {
@@ -7993,18 +7352,8 @@
     },
     {
       "name": "minecraft:sculk_sensor",
-      "emission": 0,
-      "filter": 0,
-      "overrides": [
-        {
-          "states": {
-            "powered_bit": true,
-            "sculk_sensor_phase": 1
-          },
-          "emission": 1,
-          "filter": 0
-        }
-      ]
+      "emission": 1,
+      "filter": 0
     },
     {
       "name": "minecraft:sculk_shrieker",
@@ -8345,18 +7694,7 @@
     {
       "name": "minecraft:spruce_leaves",
       "emission": 0,
-      "filter": 1,
-      "overrides": [
-        {
-          "states": {
-            "old_leaf_type": "spruce",
-            "persistent_bit": false,
-            "update_bit": true
-          },
-          "emission": 0,
-          "filter": 0
-        }
-      ]
+      "filter": 1
     },
     {
       "name": "minecraft:spruce_log",

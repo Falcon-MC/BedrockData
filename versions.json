@@ -279,7 +279,7 @@
     },
     {
       "protocol": 2225,
-      "minecraftVersion": "1.26.63",
+      "minecraftVersion": "1.26.65",
       "files": [
         {
           "name": "aim_assist.json",
@@ -304,7 +304,7 @@
         {
           "name": "block_light.json",
           "format": "JSON",
-          "sha256": "c2d18561f3ee479f416274777551df4c07e513ddc58f6f0a343431fb22259deb"
+          "sha256": "72b3ea5b3324e6be929fc4b3ff7b75d2471e5cba1b172e3fcb760205014cca39"
         },
         {
           "name": "block_palette.nbt",
@@ -399,7 +399,7 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "7a1507b3e238913cab8f7effa15c5515864e0dab3a0d74d1952d8c3287c021a6"
+          "sha256": "0822072d4f9939c3eb27aeace998bd07e85f25032439029bb16638ba262496be"
         },
         {
           "name": "spawn_rules.json",
@@ -420,6 +420,11 @@
           "name": "voxel_shapes.json",
           "format": "JSON",
           "sha256": "70e75040943e466ec5692138e7e7ed8b21b7f2ebcd71700a16a790d090cb22b8"
+        },
+        {
+          "name": "worldgen.json",
+          "format": "JSON, keyed by worldgen path (structures/, structure_sets/, template_pools/, processors/)",
+          "sha256": "ea82e56f94f3948a08b5b2f8122e080421655266aac1f0afb71a71af464c08c6"
         }
       ],
       "pending": []
