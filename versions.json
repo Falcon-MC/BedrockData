@@ -279,7 +279,7 @@
     },
     {
       "protocol": 2225,
-      "minecraftVersion": "1.26.65",
+      "minecraftVersion": "1.26.66",
       "files": [
         {
           "name": "aim_assist.json",
@@ -304,7 +304,7 @@
         {
           "name": "block_light.json",
           "format": "JSON",
-          "sha256": "72b3ea5b3324e6be929fc4b3ff7b75d2471e5cba1b172e3fcb760205014cca39"
+          "sha256": "a0bdfe00141e9097640a25ed30576b96a09411897f99859de2754e5783e33a39"
         },
         {
           "name": "block_palette.nbt",
@@ -399,7 +399,7 @@
         {
           "name": "recipes.json",
           "format": "JSON",
-          "sha256": "0822072d4f9939c3eb27aeace998bd07e85f25032439029bb16638ba262496be"
+          "sha256": "09c2df81ca47860db713bcf5eba473a8ef1b3de6ac4ce2a3af0fb238b127be30"
         },
         {
           "name": "spawn_rules.json",
