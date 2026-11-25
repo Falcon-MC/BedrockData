@@ -164,7 +164,7 @@ for the stable and preview channels and opens a draft pull request when a new se
 - [Falcon](https://github.com/Falcon-MC/Falcon) - the server
 - [Falcon.Protocol](https://github.com/Falcon-MC/Falcon/tree/dev/Falcon.Protocol) - packets and network types
 - [Falcon.Network](https://github.com/Falcon-MC/Falcon/tree/dev/Falcon.Network) - RakNet and NetherNet transport
-- [NBT](https://github.com/Falcon-MC/NBT) - NBT tags and binary streams
+- [Falcon.Shared](https://github.com/Falcon-MC/Falcon/tree/dev/Falcon.Shared) - NBT tags and binary streams
 - [BlockStateUpdater](https://github.com/Falcon-MC/BlockStateUpdater) - block state upgrade schemas
 
 ## Licensing information
