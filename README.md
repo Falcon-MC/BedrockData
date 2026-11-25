@@ -162,8 +162,8 @@ for the stable and preview channels and opens a draft pull request when a new se
 ## Related repositories
 
 - [Falcon](https://github.com/Falcon-MC/Falcon) - the server
-- [Protocol](https://github.com/Falcon-MC/Protocol) - packets and network types
-- [Network](https://github.com/Falcon-MC/Network) - RakNet and NetherNet transport
+- [Falcon.Protocol](https://github.com/Falcon-MC/Falcon/tree/dev/Falcon.Protocol) - packets and network types
+- [Falcon.Network](https://github.com/Falcon-MC/Falcon/tree/dev/Falcon.Network) - RakNet and NetherNet transport
 - [NBT](https://github.com/Falcon-MC/NBT) - NBT tags and binary streams
 - [BlockStateUpdater](https://github.com/Falcon-MC/BlockStateUpdater) - block state upgrade schemas
 
